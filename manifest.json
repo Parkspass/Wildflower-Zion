@@ -1,11 +1,11 @@
 {
-    "name": "Acadia VEM",
-    "short_name": "AcadiaVEM",
+    "name": "Zion Wildflower",
+    "short_name": "ZionWildflower",
     "start_url": ".",
     "display": "standalone",
     "orientation": "portrait-primary",
-    "theme_color": "#7E8959",
-    "background_color": "#FFFFFF",
+    "theme_color": "#3B4549",
+    "background_color": "#3B4549",
     "icons": [
         {
             "src": "pwa_icons/android-chrome-192x192.png",

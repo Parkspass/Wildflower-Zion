@@ -132,12 +132,12 @@
 							<div class="aBar"><p class="pl-4">A</p></div>
 
 							<!-- ALL FLOWER IMAGES/SELECTION -->
-							<!--<div class="picWrapper">
-								<div class="containerPics">
-									<img src="flowers/alfalfa.jpg" @click="flowerDetailPage('Alfalfa', 'alfalfa'); resetAppBarTabs();" class="pic" alt="alfalfaTest">
-									<div class="text-block" v-if="common_selected">Alfalfa</div><div class="text-block latin" v-if="latin_selected">Medicago sativa</div>
-								</div>
-							</div>-->
+							<div class="picWrapper">
+								<div v-for="flower in wildflowers" class="containerPics">
+                                    <img :src="`wildflowerPhotos/${flower.Name}.jpg`" class="pic" @click="flowerDetailPage(`${flower.Name}`); resetAppBarTabs(); currentSlide(1);">
+                                    <div class="text-block" v-if="common_selected">{{flower.Common_Name}}</div><div class="text-block latin" v-if="latin_selected">{{flower.Latin_Name}}</div>
+                                </div>
+							</div>
 
 						</div>
 
@@ -173,6 +173,12 @@
 								</div>
 								<div id="reset" @click="reset();">Reset Filters</div>
 							</div>
+							<div class="picWrapper">
+								<div v-for="flower in wildflowers" class="containerPics">
+                                    <img :src="`wildflowerPhotos/${flower.Name}.jpg`" class="pic" @click="flowerDetailPage(`${flower.Name}`); resetAppBarTabs(); currentSlide(1);">
+                                    <div class="text-block" v-if="common_selected">{{flower.Common_Name}}</div><div class="text-block latin" v-if="latin_selected">{{flower.Latin_Name}}</div>
+                                </div>
+							</div>
 						</div>
 					</div>
 
@@ -189,9 +195,9 @@
 						<div id="cancelButton" @click="page = 'research'">Cancel</div>
 					</div>
 
-					<div v-if="page == 'flowerdetailPage' ">
+					<div v-if="page == 'flowerDetailPage' ">
 						<v-app-bar dense>
-							<v-toolbar-title class="researchHeader" v-on:click="page='research'; resetAppBarTabs(); "><img class="backButton" src="icons/backArrow.svg"><span>{{selectedFlower}}</span></v-toolbar-title>
+							<v-toolbar-title class="researchHeader" v-on:click="page='research'; resetAppBarTabs(); "><img class="backButton" src="icons/backArrow.svg"><span>{{selectedFlowerCommon}}</span></v-toolbar-title>
 							<v-spacer></v-spacer>
 						</v-app-bar>
 						<div id="slideshowContainer">
@@ -204,19 +210,28 @@
 							<div class="slidesContainer fade">
 								<img class="flowerDetailImage" :src="selectedFlowerImage3">
 							</div>
-							<div class="dots">
-								<span class="dot" @click="currentSlide(1)"></span>
-								<span class="dot" @click="currentSlide(2)"></span>
-								<span class="dot" @click="currentSlide(3)"></span>
+                            <div class="slidesContainer fade">
+								<img class="flowerDetailImage" :src="selectedFlowerImage4">
+							</div>
+                            <div class="slidesContainer fade">
+								<img class="flowerDetailImage" :src="selectedFlowerImage5">
+							</div>
+                            <div class="slidesContainer fade">
+								<img class="flowerDetailImage" :src="selectedFlowerImage6">
+							</div>
+							<div class="dots" >
+								<span class="dot" @click="currentSlide(photo)" v-for="photo in selectedFlowerPhotos"></span>
 							</div>
 						</div>
 						<p class="details"><b>Common Name:</b> {{selectedFlowerCommon}}</p>
 						<p class="details"><b>Latin Name:</b> {{selectedFlowerLatin}}</p>
 						<p class="details"><b>Family Name:</b> {{selectedFlowerFamily}}</p>
-						<p class="details"><b>Number of Petals:</b> {{selectedFlowerPetals}}</p>
+                        <p class="details"><b>Blooming Months:</b> {{selectedFlowerBloomingMonths}}</p>
 						<p class="details"><b>Size:</b> {{selectedFlowerSize}}</p>
+						<p class="details"><b>Flower Shape:</b> {{selectedFlowerShape}}</p>
+						<p class="details"><b>Number of Petals:</b> {{selectedFlowerPetals}}</p>
+						<p class="details"><b>Petal Color:</b> {{selectedFlowerColor}}</p>
 						<p class="details"><b>Leaf Arrangement:</b> {{selectedFlowerLeaves}}</p>
-						<p class="details"><b>Blooming Months:</b> {{selectedFlowerBloomingMonths}}</p><br>
 						<p class="details"><b>Physical Description:</b> {{selectedFlowerDescription}}</p><br>
 						<p class="details"><b>General Info:</b> {{selectedFlowerInfo}}</p><br><br><br>
 					</div>
@@ -237,24 +252,15 @@
 								<input type="text" class="d-inline" name="search" id="searchBox" color="#3B4549" placeholder="Search">
 							</div>
 							<div class="aBar"><p class="pl-4">A</p></div>
+
+							<!-- ALL TREE IMAGES/SELECTION -->
 							<div class="picWrapper">
-								<div class="container">
-									<img src="wildflowerPhotos/alfalfa.jpg" @click="flowerDetailPage('Alfalfa', 'alfalfa'); resetAppBarTabs();" class="pic" alt="alfalfaTest">
-									<div class="text-block" v-if="common_selected">Alfalfa</div><div class="text-block latin" v-if="latin_selected">Alfalfa</div>
-								</div>
-								<div class="container">
-									<img src="wildflowerPhotos/alfalfa.jpg" @click="flowerDetailPage('Alfalfa', 'alfalfa'); resetAppBarTabs();" class="pic" alt="alfalfaTest">
-									<div class="text-block" v-if="common_selected">Alfalfa</div><div class="text-block latin" v-if="latin_selected">Alfalfa</div>
-								</div>
-								<div class="container">
-									<img src="wildflowerPhotos/alfalfa.jpg" @click="flowerDetailPage('Alfalfa', 'alfalfa'); resetAppBarTabs();" class="pic" alt="alfalfaTest">
-									<div class="text-block" v-if="common_selected">Alfalfa</div><div class="text-block latin" v-if="latin_selected">Alfalfa</div>
-								</div>
-								<div class="container">
-									<img src="wildflowerPhotos/alfalfa.jpg" @click="flowerDetailPage('Alfalfa', 'alfalfa'); resetAppBarTabs();" class="pic" alt="alfalfaTest">
-									<div class="text-block" v-if="common_selected">Alfalfa</div><div class="text-block latin" v-if="latin_selected">Alfalfa</div>
-								</div>
+                                <div v-for="tree in trees" class="containerPics">
+                                    <img :src="`treePhotos/${tree.Name}.jpg`" class="pic" @click="treeDetailPage(`${tree.Name}`); resetAppBarTabs(); currentSlide(1);">
+                                    <div class="text-block" v-if="common_selected">{{tree.Common_Name}}</div><div class="text-block latin" v-if="latin_selected">{{tree.Latin_Name}}</div>
+                                </div>
 							</div>
+                            
 						</div>
 
 						<div v-if="class_selected">
@@ -281,6 +287,43 @@
 								<div id="reset" @click="reset();">Reset Filters</div>
 							</div>
 						</div>
+					</div>
+
+                    <div v-if="page == 'treeDetailPage' ">
+						<v-app-bar dense>
+							<v-toolbar-title class="researchHeader" v-on:click="page='research'; resetAppBarTabs(); "><img class="backButton" src="icons/backArrow.svg"><span>{{selectedTreeCommon}}</span></v-toolbar-title>
+							<v-spacer></v-spacer>
+						</v-app-bar>
+						<div id="slideshowContainer">
+							<div class="slidesContainer fade">
+								<img class="flowerDetailImage" :src="selectedTreeImage">
+							</div>
+							<div class="slidesContainer fade">
+								<img class="flowerDetailImage" :src="selectedTreeImage2">
+							</div>
+							<div class="slidesContainer fade">
+								<img class="flowerDetailImage" :src="selectedTreeImage3">
+							</div>
+                            <div class="slidesContainer fade">
+								<img class="flowerDetailImage" :src="selectedTreeImage4">
+							</div>
+                            <div class="slidesContainer fade">
+								<img class="flowerDetailImage" :src="selectedTreeImage5">
+							</div>
+                            <div class="slidesContainer fade">
+								<img class="flowerDetailImage" :src="selectedTreeImage6">
+							</div>
+							<div class="dots" >
+								<span class="dot" @click="currentSlide(photo)" v-for="photo in selectedTreePhotos"></span>
+							</div>
+						</div>
+						<p class="details"><b>Common Name:</b> {{selectedTreeCommon}}</p>
+						<p class="details"><b>Latin Name:</b> {{selectedTreeLatin}}</p>
+						<p class="details"><b>Family Name:</b> {{selectedTreeFamily}}</p>
+                        <p class="details"><b>Classification:</b> {{selectedTreeClassification}}</p>
+						<p class="details"><b>Height:</b> {{selectedTreeSize}}</p>
+						<p class="details"><b>Physical Description:</b> {{selectedTreeDescription}}</p><br>
+						<p class="details"><b>General Info:</b> {{selectedTreeInfo}}</p><br><br><br>
 					</div>
 
 					<div v-if="page == 'Instructions' ">

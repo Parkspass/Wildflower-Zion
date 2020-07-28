@@ -281,6 +281,7 @@ h2{
     height: 30px;
     background-color: #829891;
     color: #E9DED9;
+    line-height: 30px;
 }
 .alfalfa {
     width: 140px;
@@ -298,7 +299,7 @@ h2{
     grid-template-columns: auto auto;
     justify-items: center;
     justify-content: space-evenly;
-    margin-bottom: 0vw;
+    margin-bottom: 10vh;
 }
 .containerPics{
     margin: 8px;
@@ -325,6 +326,10 @@ h2{
     margin-bottom: -40px;
 }
 /* Petal Page*/
+.letter{
+    line-height: 35px;
+    margin-top: 10px;
+}
 #petalHeader{
     height: 48px;
     line-height: 48px;
@@ -455,6 +460,7 @@ h2{
 }
 .dots{
     text-align: center;
+    margin-top: 5px;
 }
 .flowerDetailImage {
     height: auto;

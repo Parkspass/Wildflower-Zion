@@ -166,6 +166,14 @@
 									<span id="num">{{petalNumber}}</span>
 								</div>
 								<div id="reset" @click="reset();">Reset Filters</div>
+								<div class="notFound" v-if="!wildflowersFiltered.length">
+									<p>
+									Your search did not match any wildflowers.<br><br>
+									Suggestions:<br>
+									&#8226; Leave a section blank.<br>
+									&#8226; Search alphabetically. 
+									</p>
+								</div>
 							</div>
 							<div class="picWrapper">
 								<div v-for="flower in wildflowersFiltered" class="containerPics">
@@ -242,7 +250,7 @@
 						</div>
 						<div v-if="abc_selected" class="mt-5">
 							<div class="searchBox mb-3">
-								<img class="ml-2 d-inline" src="icons/magnifying.svg" alt="">
+								<img class="ml-2 d-inline search" src="icons/magnifying.svg" alt="">
 								<input type="text" class="d-inline" name="search" id="searchBox" color="#3B4549" placeholder="Search" v-model="treeSearch">
 							</div>
 							<div class="aBar"><p class="pl-4">A</p></div>
@@ -250,7 +258,7 @@
 							<!-- ALL TREE IMAGES/SELECTION -->
 							<div class="picWrapper">
                                 <div v-for="tree in filteredTreeSearch" class="containerPics">
-                                    <img :src="`treePhotos/${tree.Name}.jpg`" class="pic" @click="treeDetailPage(`${tree.Name}`); resetAppBarTabs(); currentSlide(1);">
+                                    <img :src="`treePhotos/${tree.Name}.jpg`" class="pic" @click="treeDetailPage(`${tree.Name}`); resetAppBarTabs(); currentSlide2(1);">
                                     <div class="text-block" v-if="common_selected">{{tree.Common_Name}}</div><div class="text-block latin" v-if="latin_selected">{{tree.Latin_Name}}</div>
                                 </div>
 							</div>
@@ -278,10 +286,18 @@
 									<img class="optionImg" src="icons/three.svg" @click="threeSelected(); filterTrees();" :class="{selected_focus: three_selected}">
 								</div>
 								<div id="reset" @click="reset();">Reset Filters</div>
+								<div class="notFound" v-if="!treesFiltered.length">
+									<p>
+									Your search did not match any trees.<br><br>
+									Suggestions:<br>
+									&#8226; Leave a section blank.<br>
+									&#8226; Search alphabetically. 
+									</p>
+								</div>
 							</div>
 							<div class="picWrapper">
 								<div v-for="tree in treesFiltered" class="containerPics">
-                                    <img :src="`treePhotos/${tree.Name}.jpg`" class="pic" @click="treeDetailPage(`${tree.Name}`); resetAppBarTabs(); currentSlide(1);">
+                                    <img :src="`treePhotos/${tree.Name}.jpg`" class="pic" @click="treeDetailPage(`${tree.Name}`); resetAppBarTabs(); currentSlide2(1);">
                                     <div class="text-block" v-if="common_selected">{{tree.Common_Name}}</div><div class="text-block latin" v-if="latin_selected">{{tree.Latin_Name}}</div>
                                 </div>
 							</div>
@@ -290,30 +306,30 @@
 
                     <div v-if="page == 'treeDetailPage' ">
 						<v-app-bar dense>
-							<v-toolbar-title class="researchHeader" v-on:click="page='research'; resetAppBarTabs(); "><img class="backButton" src="icons/backArrow.svg"><span>{{selectedTreeCommon}}</span></v-toolbar-title>
+							<v-toolbar-title class="researchHeader" v-on:click="page='searchTrees'; resetAppBarTabs(); "><img class="backButton" src="icons/backArrow.svg"><span>{{selectedTreeCommon}}</span></v-toolbar-title>
 							<v-spacer></v-spacer>
 						</v-app-bar>
 						<div id="slideshowContainer">
-							<div class="slidesContainer fade">
+							<div class="slidesContainer2 fade">
 								<img class="flowerDetailImage" :src="selectedTreeImage">
 							</div>
-							<div class="slidesContainer fade">
+							<div class="slidesContainer2 fade">
 								<img class="flowerDetailImage" :src="selectedTreeImage2">
 							</div>
-							<div class="slidesContainer fade">
+							<div class="slidesContainer2 fade">
 								<img class="flowerDetailImage" :src="selectedTreeImage3">
 							</div>
-                            <div class="slidesContainer fade">
+                            <div class="slidesContainer2 fade">
 								<img class="flowerDetailImage" :src="selectedTreeImage4">
 							</div>
-                            <div class="slidesContainer fade">
+                            <div class="slidesContainer2 fade">
 								<img class="flowerDetailImage" :src="selectedTreeImage5">
 							</div>
-                            <div class="slidesContainer fade">
+                            <div class="slidesContainer2 fade">
 								<img class="flowerDetailImage" :src="selectedTreeImage6">
 							</div>
 							<div class="dots" >
-								<span class="dot" @click="currentSlide(photo)" v-for="photo in selectedTreePhotos"></span>
+								<span class="dot2" @click="currentSlide2(photo)" v-for="photo in selectedTreePhotos"></span>
 							</div>
 						</div>
 						<p class="details"><b>Common Name:</b> {{selectedTreeCommon}}</p>
@@ -346,10 +362,10 @@
 
 					<div v-if="page == 'Glossary' ">
 						<v-app-bar dense  color="#829891" class="mb-9">
-							<v-toolbar-title v-on:click="page='home'" color="#C47D3D"><img class="ml-4 mr-4" src="icons/backArrow.svg"><span class="tanColor">Glossary </span></v-toolbar-title>
+							<v-toolbar-title class="researchHeader" v-on:click="page='home'" color="#C47D3D"><img class="backButton" src="icons/backArrow.svg"><span class="tanColor glossary">Glossary </span></v-toolbar-title>
 						</v-app-bar>
 						<div class="searchBox mt-n3">
-							<img class="ml-2 d-inline" src="icons/magnifying.svg" alt="">
+							<img class="ml-2 d-inline search" src="icons/magnifying.svg" alt="">
 							<input type="text" class="d-inline" name="search" id="searchBox" color="#3B4549" placeholder="Search" v-model="glossarySearch">
 						</div>
 						<div class="mt-6 ml-5"  v-for="item in filteredGlossary">
@@ -408,7 +424,7 @@
 
 					<div v-if="page == 'Info' ">
 						<v-app-bar dense  color="#829891" class="mb-9">
-							<v-toolbar-title v-on:click="page='home'" color="#C47D3D"><img class="ml-4 mr-4" src="icons/backArrow.svg"><span class="tanColor">General Information</span></v-toolbar-title>
+							<v-toolbar-title class="researchHeader" v-on:click="page='home'" color="#C47D3D"><img class="backButton" src="icons/backArrow.svg"><span class="tanColor">General Information</span></v-toolbar-title>
 						</v-app-bar>
 						<p class="instruction--text">Zion National Park has a remarkable species richness with more than 1,000 species known to exist within the 148,733 acres across the park. Elevations ranging from 3,600 to 8,700 feet, varying amounts of sun and water, and unique geology create a mosaic of habitats within the park.
                         <br><br>Contributing further to the richness of species is the park’s location on the Colorado Plateau bordered by the Great Basin and Mohave Desert. Plants from all three floristic regions can be found in Zion.

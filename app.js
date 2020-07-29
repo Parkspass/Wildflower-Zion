@@ -2085,8 +2085,8 @@ var app = new Vue({
         for(i=0; i< glossary.length; i++){
             this.glossaryItems.push(glossary[i]);
         }
-        // console.log(this.glossaryItems);
         this.showSlides(this.slideIndex);
+        this.showSlides2(this.slideIndex);
         this.trees = this.trees.sort(this.compare);
         this.wildflowers = this.wildflowers.sort(this.compare);
     },
@@ -2104,7 +2104,6 @@ var app = new Vue({
         },
         setAppBarIcon: function(tab){ 
             this.resetAppBarTabs();
-            console.log('tab: ', tab);
             switch(tab){
                 // color change will never be seen so we dont need to change it.
                 //case 'hamburger': this.hambugerMenuIcon = 'icons/hamburger_menuLight.svg'; break;
@@ -2124,22 +2123,18 @@ var app = new Vue({
             this.treesIcon = 'icons/treeDark.svg';
         },
         commonSelected: function() {
-            console.log('common clicked');
             this.common_selected = true;
             this.latin_selected = false;
         },
         latinSelected: function() {
-            console.log('latin clicked');
             this.common_selected = false;
             this.latin_selected = true;
         },
         abcSelected: function() {
-            console.log('abc clicked');
             this.abc_selected = true;
             this.class_selected = false;
         },
         classSelected: function() {
-            console.log('class clicked');
             this.abc_selected = false;
             this.class_selected = true;
         },
@@ -2449,7 +2444,6 @@ var app = new Vue({
             this.filterTrees();
         },
         sideDrawerPageChange: function(page) {
-            //console.log('page: ', page);
             this.resetAppBarTabs();
             if(page == 'research') {
                 this.setAppBarIcon('research');
@@ -2461,7 +2455,6 @@ var app = new Vue({
             this.page = page;
         },
         treeDetailPage: function(currentTree) {
-            console.log(currentTree);
             this.page = 'treeDetailPage';
             this.selectedTree = currentTree;
             for(var i = 0; i < this.trees.length; i++){
@@ -2499,7 +2492,6 @@ var app = new Vue({
 
         },
         flowerDetailPage: function(currentFlower) {
-            console.log(currentFlower);
             this.page = 'flowerDetailPage';
             this.selectedFlower = currentFlower;
             for(var i = 0; i < this.wildflowers.length; i++){
@@ -2541,25 +2533,6 @@ var app = new Vue({
             }
 
         },
-
-        // Thumbnail image controls
-        currentSlide: function(n) {
-            this.showSlides(this.slideIndex = n);
-        },
-
-        showSlides: function(n) {
-            var i;
-            var slides = document.getElementsByClassName("slidesContainer");
-            var dots = document.getElementsByClassName("dot");
-            for (i = 0; i < slides.length; i++) {
-                slides[i].style.display = "none";
-            }
-            for (i = 0; i < dots.length; i++) {
-                dots[i].className = dots[i].className.replace(" active", "");
-            }
-            slides[this.slideIndex-1].style.display = "block";
-            dots[this.slideIndex-1].className += " active";
-        } ,
         filterFlowers: function(){
             this.wildflowersFiltered = this.wildflowers;
             this.checkShape();
@@ -2605,7 +2578,6 @@ var app = new Vue({
             }
         },
         checkPetals: function(){
-            console.log("Checking petals", this.petalNumber);
             if (this.petalNumber == "Zero"){
                 this.wildflowersFiltered = this.wildflowersFiltered.filter(a=>a.Number_Petals=="0");
             }else if (this.petalNumber == "One"){
@@ -2658,6 +2630,41 @@ var app = new Vue({
                 this.treesFiltered = this.treesFiltered.filter(a=>a.Needle_Count.indexOf('3') > -1);
             }
         },
+
+        // Thumbnail image controls
+        currentSlide: function(n) {
+            this.showSlides(this.slideIndex = n);
+        },
+        currentSlide2: function(n){
+            this.showSlides2(this.slideIndex = n);
+        },
+        showSlides: function(n) {
+            var i;
+            var slides = document.getElementsByClassName("slidesContainer");
+            var dots = document.getElementsByClassName("dot");
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[this.slideIndex-1].style.display = "block";
+            dots[this.slideIndex-1].className += " active";
+        },
+        showSlides2: function(n) {
+            var i;
+            var slides = document.getElementsByClassName("slidesContainer2");
+            var dots = document.getElementsByClassName("dot2");
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[this.slideIndex-1].style.display = "block";
+            dots[this.slideIndex-1].className += " active";
+        },
+        
     },
     computed: {
         filteredGlossary: function() {

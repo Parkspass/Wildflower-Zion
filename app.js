@@ -140,7 +140,7 @@ var app = new Vue({
                 "Size": "16-30+ inches (40-80 cm) tall",
                 "Color": "White",
                 "Flower_Arrangement": "Panicle",
-                "Leaf_Arrangement::Arrangement": "Basal",
+                "Leaf_Arrangement": "Basal",
                 "Photos": 3
             },
             {
@@ -150,7 +150,7 @@ var app = new Vue({
                 "General_Info": "This very distinctive, showy little wildflower often goes by unappreciated. Look for it in sandy soils, especially on the east side of the park or Coalpits Wash.",
                 "Blooming_Months": "Apr, May, Jun, Jul",
                 "Family_Name": "Asteraceae (sunflower)",
-                "Flower_Shape": "Daisy/Thistle-like",
+                "Flower_Shape": "Daisy",
                 "Fused_Petals": "",
                 "Latin_Name": "Townsendia incana",
                 "Number_Petals": "7+",
@@ -158,7 +158,7 @@ var app = new Vue({
                 "Size": "1-2.5 inches (2.5-6 cm) tall",
                 "Color": "White",
                 "Flower_Arrangement": "Few-Solitary",
-                "Leaf_Arrangement::Arrangement": "Basal",
+                "Leaf_Arrangement": "Basal",
                 "Photos": 3
             },
             {
@@ -168,7 +168,7 @@ var app = new Vue({
                 "General_Info": "Uncommon in Zion but particularly \"showy\" as the name implies. Typically found as colonies along creeks in the park. Like other milkweeds, this plant exudes a poisonous milky \"latex\" when broken. An important host for monarch butterflies.",
                 "Blooming_Months": "May, Jun, Jul, Aug",
                 "Family_Name": "Asclepiadaceae (milkweed)",
-                "Flower_Shape": "Radially Symmetrical",
+                "Flower_Shape": "Simple",
                 "Fused_Petals": "Yes",
                 "Latin_Name": "Asclepias speciosa",
                 "Number_Petals": "5",
@@ -176,7 +176,7 @@ var app = new Vue({
                 "Size": "2-3+ feet (70-100 cm) tall",
                 "Color": "Pink",
                 "Flower_Arrangement": "Umbel",
-                "Leaf_Arrangement::Arrangement": "Opposite",
+                "Leaf_Arrangement": "Opposite",
                 "Photos": 3
             },
             {
@@ -186,7 +186,7 @@ var app = new Vue({
                 "General_Info": "A very common plant in Zion often found as large colonies in disturbed fields in the Zion canyon. The pollinators of this species are abundant and diverse. When whorled milkweeds are in flower the air is buzzing with insect activity, even at night. You are likely to encounter the huge tarantula hawk wasp, which paralyzes tarantulas and buries them.  The larvae feed on the spider and later emerge. These wasps deliver an incredibly painful sting, so admire from a distance.",
                 "Blooming_Months": "May, Jun, Jul, Aug, Sep",
                 "Family_Name": "Asclepiadaceae (milkweed)",
-                "Flower_Shape": "Radially Symmetrical",
+                "Flower_Shape": "Simple",
                 "Fused_Petals": "Yes",
                 "Latin_Name": "Asclepias subverticillata",
                 "Number_Petals": "5",
@@ -194,7 +194,7 @@ var app = new Vue({
                 "Size": "6-28 inches (15-70 cm) tall",
                 "Color": "White",
                 "Flower_Arrangement": "Umbel",
-                "Leaf_Arrangement::Arrangement": "Whorled",
+                "Leaf_Arrangement": "Whorled",
                 "Photos": 4
             },
             {
@@ -204,7 +204,7 @@ var app = new Vue({
                 "General_Info": "Abundant in disturbed areas.",
                 "Blooming_Months": "Mar, Apr, May, Jun",
                 "Family_Name": "Brassicaceae (mustard)",
-                "Flower_Shape": "Radially Symmetrical",
+                "Flower_Shape": "Simple",
                 "Fused_Petals": "",
                 "Latin_Name": "Chorispora tenella",
                 "Number_Petals": "4",
@@ -212,7 +212,7 @@ var app = new Vue({
                 "Size": "8-18 inches (20-45 cm) tall",
                 "Color": "Purple",
                 "Flower_Arrangement": "Panicle",
-                "Leaf_Arrangement::Arrangement": "Alternate",
+                "Leaf_Arrangement": "Alternate",
                 "Photos": 4
             },
             {
@@ -230,7 +230,7 @@ var app = new Vue({
                 "Size": "Climbs to 8+ feet (2.4+ m) high",
                 "Color": "Purple",
                 "Flower_Arrangement": "Raceme",
-                "Leaf_Arrangement::Arrangement": "Alternate",
+                "Leaf_Arrangement": "Alternate",
                 "Photos": 3
             },
             {
@@ -240,7 +240,7 @@ var app = new Vue({
                 "General_Info": "A common weed of disturbed areas, especially where wet. Closely related but not as common, S. oleraceus is also found in disturbed areas.",
                 "Blooming_Months": "Jul, Aug, Sep, Oct",
                 "Family_Name": "Asteraceae (sunflower)",
-                "Flower_Shape": "Daisy/Thistle-like",
+                "Flower_Shape": "Daisy",
                 "Fused_Petals": "",
                 "Latin_Name": "Sonchus asper",
                 "Number_Petals": "7+",
@@ -248,7 +248,7 @@ var app = new Vue({
                 "Size": "1-3+ feet (30-100 cm) tall",
                 "Color": "Yellow",
                 "Flower_Arrangement": "Few-Solitary",
-                "Leaf_Arrangement::Arrangement": "Alternate",
+                "Leaf_Arrangement": "Alternate",
                 "Photos": 4
             },
             {
@@ -258,7 +258,7 @@ var app = new Vue({
                 "General_Info": "Usually seen as towering roadside plants. May be confused with the native blue lettuce (L. tatarica var. pulchella), which has blue flowers and lacks the row of prickles along the midrib.",
                 "Blooming_Months": "Jul, Aug, Sep",
                 "Family_Name": "Asteraceae (sunflower)",
-                "Flower_Shape": "Daisy/Thistle-like",
+                "Flower_Shape": "Daisy",
                 "Fused_Petals": "",
                 "Latin_Name": "Lactuca serriola",
                 "Number_Petals": "7+",
@@ -266,7 +266,7 @@ var app = new Vue({
                 "Size": "1-5+ feet (30-150+ cm) tall",
                 "Color": "Yellow",
                 "Flower_Arrangement": "Panicle",
-                "Leaf_Arrangement::Arrangement": "Alternate",
+                "Leaf_Arrangement": "Alternate",
                 "Photos": 4
             },
             {
@@ -276,7 +276,7 @@ var app = new Vue({
                 "General_Info": "The 'tumbleweed' that has become iconic of the West. Seeds originally introduced from Russia in grain shipments. The taproot/stem breaks after the plant matures, allowing it to tumble across the landscape to spread seed. Also known as Russian thistle.",
                 "Blooming_Months": "Jun, Jul, Aug, Sep",
                 "Family_Name": "Chenopodiaceae (goosefoot)",
-                "Flower_Shape": "Radially Symmetrical",
+                "Flower_Shape": "Simple",
                 "Fused_Petals": "Yes",
                 "Latin_Name": "Salsola tragus",
                 "Number_Petals": "7+",
@@ -284,7 +284,7 @@ var app = new Vue({
                 "Size": "8-60+ inches (20-150 cm) tall",
                 "Color": "White",
                 "Flower_Arrangement": "Raceme",
-                "Leaf_Arrangement::Arrangement": "No-Apparent Leaves",
+                "Leaf_Arrangement": "No-Apparent Leaves",
                 "Photos": 4
             },
             {
@@ -294,7 +294,7 @@ var app = new Vue({
                 "General_Info": "The sole member of the gourd family in Zion. It is fairly common, found mostly in the canyon floor. The fruit, seeds, flowers and tuberous roots are said to be edible though bitter. These were all used by Native Americans, though the plant may contain toxins and is NOT recommended for consumption.",
                 "Blooming_Months": "May, Jun, Jul, Aug",
                 "Family_Name": "Cucurbitaceae (squash)",
-                "Flower_Shape": "Radially Symmetrical",
+                "Flower_Shape": "Simple",
                 "Fused_Petals": "Yes",
                 "Latin_Name": "Cucurbita foetidissima",
                 "Number_Petals": "5",
@@ -302,7 +302,7 @@ var app = new Vue({
                 "Size": "Stems 3.5-20 feet (1-6 m) long",
                 "Color": "Yellow",
                 "Flower_Arrangement": "Few-Solitary",
-                "Leaf_Arrangement::Arrangement": "Alternate",
+                "Leaf_Arrangement": "Alternate",
                 "Photos": 5
             },
             {
@@ -312,7 +312,7 @@ var app = new Vue({
                 "General_Info": "Present in Zion is var. zionensis. Zion draba is only found in the park and immediate surrounding areas. Prefers sandy areas, especially where somewhat moist in the Navajo Sandstone Formation.",
                 "Blooming_Months": "Apr, May, Jun",
                 "Family_Name": "Brassicaceae (mustard)",
-                "Flower_Shape": "Radially Symmetrical",
+                "Flower_Shape": "Simple",
                 "Fused_Petals": "",
                 "Latin_Name": "Draba asprella",
                 "Number_Petals": "4",
@@ -320,7 +320,7 @@ var app = new Vue({
                 "Size": "2-5.5 inches (5-14 cm) tall",
                 "Color": "Yellow",
                 "Flower_Arrangement": "Raceme",
-                "Leaf_Arrangement::Arrangement": "Basal",
+                "Leaf_Arrangement": "Basal",
                 "Photos": 4
             },
             {
@@ -330,7 +330,7 @@ var app = new Vue({
                 "General_Info": "This is one of the earliest flowering plants in Zion. It can be quite common in sandy areas, especially after good rainfalls. A similar species, D. reptans, can be distinguished based on the hairs. Our draba species are tiny and easy to miss, but worth the effort to seek out.",
                 "Blooming_Months": "Feb, Mar, Apr, May, Jun, Jul",
                 "Family_Name": "Brassicaceae (mustard)",
-                "Flower_Shape": "Radially Symmetrical",
+                "Flower_Shape": "Simple",
                 "Fused_Petals": "",
                 "Latin_Name": "Draba cuneifolia",
                 "Number_Petals": "4",
@@ -338,7 +338,7 @@ var app = new Vue({
                 "Size": "0.5-6 inches (1-15 cm) tall",
                 "Color": "White",
                 "Flower_Arrangement": "Raceme",
-                "Leaf_Arrangement::Arrangement": "Basal",
+                "Leaf_Arrangement": "Basal",
                 "Photos": 4
             },
             { 
@@ -348,7 +348,7 @@ var app = new Vue({
                 "General_Info": "The rockcresses can be very difficult to identify and almost always require mature fruit pods to be certain. As is typical for members of the mustard family, a close inspection of hair characteristics is also necessary. ",
                 "Blooming_Months": "Mar, Apr, May, Jun, Jul",
                 "Family_Name": "Brassicaceae (mustard)",
-                "Flower_Shape": "Radially Symmetrical",
+                "Flower_Shape": "Simple",
                 "Fused_Petals": "",
                 "Latin_Name": "Arabis perennans",
                 "Number_Petals": "4",
@@ -356,7 +356,7 @@ var app = new Vue({
                 "Size": "4-22 inches (10-55 cm) tall",
                 "Color": "Purple",
                 "Flower_Arrangement": "Raceme",
-                "Leaf_Arrangement::Arrangement": "Alternate",
+                "Leaf_Arrangement": "Alternate",
                 "Photos": 5
             },
             { 
@@ -366,7 +366,7 @@ var app = new Vue({
                 "General_Info": "There are many pepperwort species in the park. This one may flower very early in the season (February).",
                 "Blooming_Months": "Feb, Mar, Apr, May, Jun",
                 "Family_Name": "Brassicaceae (mustard)",
-                "Flower_Shape": "Radially Symmetrical",
+                "Flower_Shape": "Simple",
                 "Fused_Petals": "",
                 "Latin_Name": "Lepidium lasiocarpum",
                 "Number_Petals": "4",
@@ -374,7 +374,7 @@ var app = new Vue({
                 "Size": "1-12 inches (2-30 cm) tall",
                 "Color": "White",
                 "Flower_Arrangement": "Raceme",
-                "Leaf_Arrangement::Arrangement": "Alternate",
+                "Leaf_Arrangement": "Alternate",
                 "Photos": 3
             },
             { 
@@ -384,7 +384,7 @@ var app = new Vue({
                 "General_Info": "One of the most common thistles in the park. The flowers are typically very distinct, but hybrids can occur with other Cirsium species.",
                 "Blooming_Months": "Jun, Jul, Aug",
                 "Family_Name": "Asteraceae (sunflower)",
-                "Flower_Shape": "Daisy/Thistle-like",
+                "Flower_Shape": "Daisy",
                 "Fused_Petals": "",
                 "Latin_Name": "Cirsium arizonicum",
                 "Number_Petals": "7+",
@@ -392,7 +392,7 @@ var app = new Vue({
                 "Size": "16-30 inches (40-75 cm) tall",
                 "Color": "Red",
                 "Flower_Arrangement": "Few-Solitary",
-                "Leaf_Arrangement::Arrangement": "Alternate",
+                "Leaf_Arrangement": "Alternate",
                 "Photos": 3
             },
             { 
@@ -402,7 +402,7 @@ var app = new Vue({
                 "General_Info": "The tallest native thistle in Zion. Only the exotic Scotch thistle (Onopordum acanthium) is taller.",
                 "Blooming_Months": "May, Jun",
                 "Family_Name": "Asteraceae (sunflower)",
-                "Flower_Shape": "Radially Symmetrical",
+                "Flower_Shape": "Simple",
                 "Fused_Petals": "",
                 "Latin_Name": "Cirsium neomexicanum",
                 "Number_Petals": "7+",
@@ -410,7 +410,7 @@ var app = new Vue({
                 "Size": "2-5+ feet (60-150+ cm) tall",
                 "Color": "White",
                 "Flower_Arrangement": "Few-Solitary",
-                "Leaf_Arrangement::Arrangement": "Alternate",
+                "Leaf_Arrangement": "Alternate",
                 "Photos": 4
             },
             { 
@@ -420,7 +420,7 @@ var app = new Vue({
                 "General_Info": "Common weedy plant of roadsides, fields, sandy areas and other disturbed habitat. Mullein can now be found throughout Zion, even in remote wilderness.",
                 "Blooming_Months": "Jun, Jul, Aug",
                 "Family_Name": "Scrophulariaceae (figwort)",
-                "Flower_Shape": "Radially Symmetrical",
+                "Flower_Shape": "Simple",
                 "Fused_Petals": "Yes",
                 "Latin_Name": "Verbascum thapsus",
                 "Number_Petals": "5",
@@ -428,7 +428,7 @@ var app = new Vue({
                 "Size": "1-5+ feet (0.5-1.5+ m) tall",
                 "Color": "Yellow",
                 "Flower_Arrangement": "Raceme",
-                "Leaf_Arrangement::Arrangement": "Alternate",
+                "Leaf_Arrangement": "Alternate",
                 "Photos": 5
             },
             { 
@@ -446,7 +446,7 @@ var app = new Vue({
                 "Size": "Stems 4-20 inches (10-50 cm) long",
                 "Color": "Pink",
                 "Flower_Arrangement": "Raceme",
-                "Leaf_Arrangement::Arrangement": "Opposite",
+                "Leaf_Arrangement": "Opposite",
                 "Photos": 4
             },
             { 
@@ -464,7 +464,7 @@ var app = new Vue({
                 "Size": "1-10 inches (3-25 cm) tall",
                 "Color": "Purple",
                 "Flower_Arrangement": "Raceme",
-                "Leaf_Arrangement::Arrangement": "Basal",
+                "Leaf_Arrangement": "Basal",
                 "Photos": 5
             },
             { 
@@ -474,7 +474,7 @@ var app = new Vue({
                 "General_Info": "The sharp spines puncture bike tires (hence the common name) and stick painfully into feet and footwear. Puncture vine is a serious invasive nuisance species and is actively managed in the park.",
                 "Blooming_Months": "May, Jun, Jul, Aug, Sep",
                 "Family_Name": "Zygophyllaceae (caltrop)",
-                "Flower_Shape": "Radially Symmetrical",
+                "Flower_Shape": "Simple",
                 "Fused_Petals": "",
                 "Latin_Name": "Tribulus terrestris",
                 "Number_Petals": "5",
@@ -482,7 +482,7 @@ var app = new Vue({
                 "Size": "2-10+ inches (5-25+ cm) tall",
                 "Color": "Yellow",
                 "Flower_Arrangement": "Few-Solitary",
-                "Leaf_Arrangement::Arrangement": "Opposite",
+                "Leaf_Arrangement": "Opposite",
                 "Photos": 5
             },
             { 
@@ -492,7 +492,7 @@ var app = new Vue({
                 "General_Info": "This plant was introduced from Central and Eastern North America. A noxious invasive, the plant is actively managed in the park.",
                 "Blooming_Months": "Apr, May, Jun, Jul, Aug",
                 "Family_Name": "Solanaceae (potato)",
-                "Flower_Shape": "Radially Symmetrical",
+                "Flower_Shape": "Simple",
                 "Fused_Petals": "Yes",
                 "Latin_Name": "Solanum elaeagnifolium",
                 "Number_Petals": "5",
@@ -500,7 +500,7 @@ var app = new Vue({
                 "Size": "12-40 inches (30-100 cm) tall",
                 "Color": "Purple",
                 "Flower_Arrangement": "Few-Solitary",
-                "Leaf_Arrangement::Arrangement": "Alternate",
+                "Leaf_Arrangement": "Alternate",
                 "Photos": 5
             },
             { 
@@ -518,7 +518,7 @@ var app = new Vue({
                 "Size": "4-22 inches (10-55 cm) tall",
                 "Color": "Red",
                 "Flower_Arrangement": "Raceme",
-                "Leaf_Arrangement::Arrangement": "Alternate",
+                "Leaf_Arrangement": "Alternate",
                 "Photos": 4
             },
             { 
@@ -536,7 +536,7 @@ var app = new Vue({
                 "Size": "2-9 inches (5-22 cm) tall",
                 "Color": "Orange",
                 "Flower_Arrangement": "Raceme",
-                "Leaf_Arrangement::Arrangement": "Alternate",
+                "Leaf_Arrangement": "Alternate",
                 "Photos": 4
             },
             { 
@@ -546,7 +546,7 @@ var app = new Vue({
                 "General_Info": "This is a common, showy plant of higher elevations. Look for it in the plateau regions of the park.",
                 "Blooming_Months": "Apr, May, Jun, Jul",
                 "Family_Name": "Asteraceae (sunflower)",
-                "Flower_Shape": "Daisy/Thistle-like",
+                "Flower_Shape": "Daisy",
                 "Fused_Petals": "",
                 "Latin_Name": "Balsamorhiza sagittata",
                 "Number_Petals": "7+",
@@ -554,7 +554,7 @@ var app = new Vue({
                 "Size": "10-30 inches (25-75 cm) tall",
                 "Color": "Yellow",
                 "Flower_Arrangement": "Few-Solitary",
-                "Leaf_Arrangement::Arrangement": "Basal",
+                "Leaf_Arrangement": "Basal",
                 "Photos": 5
             },
             { 
@@ -564,7 +564,7 @@ var app = new Vue({
                 "General_Info": "A showy, common plant of lower elevations that can be identified most of the year due to the distinct foliage. Plants in the fall seem to produce smaller flower heads and stalks with more leaves (see photo)., An annual desert marigold (B. pleniradiata) also occurs in the park. Besides overall smaller size of the annual, most leaves occur on the stems, some within 4 inches (10 cm) of the flower heads.",
                 "Blooming_Months": "Apr, May, Jun, Jul, Aug, Sep",
                 "Family_Name": "Asteraceae (sunflower)",
-                "Flower_Shape": "Daisy/Thistle-like",
+                "Flower_Shape": "Daisy",
                 "Fused_Petals": "",
                 "Latin_Name": "Baileya multiradiata",
                 "Number_Petals": "7+",
@@ -572,7 +572,7 @@ var app = new Vue({
                 "Size": "6-18+ inches (15-45+ cm) tall",
                 "Color": "Yellow",
                 "Flower_Arrangement": "Few-Solitary",
-                "Leaf_Arrangement::Arrangement": "Alternate",
+                "Leaf_Arrangement": "Alternate",
                 "Photos": 4
             },
             { 
@@ -582,7 +582,7 @@ var app = new Vue({
                 "General_Info": "One of the most common plants at middle to higher elevations. ",
                 "Blooming_Months": "May, Jun, Jul, Aug, Sep",
                 "Family_Name": "Asteraceae (sunflower)",
-                "Flower_Shape": "Daisy/Thistle-like",
+                "Flower_Shape": "Daisy",
                 "Fused_Petals": "",
                 "Latin_Name": "Achillea millefolium",
                 "Number_Petals": "7+",
@@ -590,7 +590,7 @@ var app = new Vue({
                 "Size": "8-30 inches (20-75 cm) tall",
                 "Color": "White",
                 "Flower_Arrangement": "Umbel",
-                "Leaf_Arrangement::Arrangement": "Alternate",
+                "Leaf_Arrangement": "Alternate",
                 "Photos": 4
             },
             { 
@@ -600,7 +600,7 @@ var app = new Vue({
                 "General_Info": "Contrary to popular belief this species is native, as are the other three species known in Zion. This is the most common species of ragweed in the park and one of the most common plants in general. Responsible for hay fever/allergic reactions when pollen is being released. Wind pollinated.",
                 "Blooming_Months": "Jul, Aug, Sep, Oct",
                 "Family_Name": "Asteraceae (sunflower)",
-                "Flower_Shape": "Radially Symmetrical",
+                "Flower_Shape": "Simple",
                 "Fused_Petals": "",
                 "Latin_Name": "Ambrosia acanthicarpa",
                 "Number_Petals": "7+",
@@ -608,7 +608,7 @@ var app = new Vue({
                 "Size": "4-30 inches (10-75 cm) tall",
                 "Color": "Yellow",
                 "Flower_Arrangement": "Raceme",
-                "Leaf_Arrangement::Arrangement": "Alternate",
+                "Leaf_Arrangement": "Alternate",
                 "Photos": 4
             },
             { 
@@ -618,7 +618,7 @@ var app = new Vue({
                 "General_Info": "This plant can be found in shaded areas such as narrow canyons and in oak woods. Especially common at Emerald Pools. A taller variety known only from the Narrows occurs. The berries have been used for making jam (not recommended).",
                 "Blooming_Months": "Mar, Apr, May",
                 "Family_Name": "Berberidaceae (barberry)",
-                "Flower_Shape": "Radially Symmetrical",
+                "Flower_Shape": "Simple",
                 "Fused_Petals": "",
                 "Latin_Name": "Mahonia repens",
                 "Number_Petals": "6",
@@ -626,7 +626,7 @@ var app = new Vue({
                 "Size": "2-12+ inches (5-30+ cm) tall",
                 "Color": "Yellow",
                 "Flower_Arrangement": "Raceme",
-                "Leaf_Arrangement::Arrangement": "Alternate",
+                "Leaf_Arrangement": "Alternate",
                 "Photos": 3
             },
             { 
@@ -636,7 +636,7 @@ var app = new Vue({
                 "General_Info": "A common, weedy native often mistakenly considered exotic. Sandy soils (even pure sand) preferred. The first experience many people have with this plant is finding the burs on clothing or pets, which is how it spreads.",
                 "Blooming_Months": "Apr, May, Jun, Jul, Aug, Sep, Oct",
                 "Family_Name": "Asteraceae (sunflower)",
-                "Flower_Shape": "Daisy/Thistle-like",
+                "Flower_Shape": "Daisy",
                 "Fused_Petals": "",
                 "Latin_Name": "Xanthium strumarium",
                 "Number_Petals": "7+",
@@ -644,7 +644,7 @@ var app = new Vue({
                 "Size": "10-40+ inches (25-100+ cm) tall",
                 "Color": "White",
                 "Flower_Arrangement": "Raceme",
-                "Leaf_Arrangement::Arrangement": "Alternate",
+                "Leaf_Arrangement": "Alternate",
                 "Photos": 4
             },
             { 
@@ -654,7 +654,7 @@ var app = new Vue({
                 "General_Info": "Aggressive and widespread exotic that can be found in otherwise native plant communities in local and remote wilderness areas.",
                 "Blooming_Months": "Jul, Aug",
                 "Family_Name": "Asteraceae (sunflower)",
-                "Flower_Shape": "Daisy/Thistle-like",
+                "Flower_Shape": "Daisy",
                 "Fused_Petals": "",
                 "Latin_Name": "Cirsium vulgare",
                 "Number_Petals": "7+",
@@ -662,7 +662,7 @@ var app = new Vue({
                 "Size": "1-4+ feet (30-120+ cm) tall",
                 "Color": "Purple",
                 "Flower_Arrangement": "Few-Solitary",
-                "Leaf_Arrangement::Arrangement": "Alternate",
+                "Leaf_Arrangement": "Alternate",
                 "Photos": 4
             },
             { 
@@ -672,7 +672,7 @@ var app = new Vue({
                 "General_Info": "Datura is as poisonous as it is pretty. It was used in ceremonial activities by the Native Americans due to narcotic properties in all parts of the plant. It has been known to cause permanent brain damage and death even in small quantities. The flowers are the largest of any native plant in Utah and attract many pollinators, making this an important plant for a healthy ecosystem.",
                 "Blooming_Months": "Apr, May, Jun, Jul, Aug, Sep, Oct",
                 "Family_Name": "Solanaceae (potato)",
-                "Flower_Shape": "Radially Symmetrical",
+                "Flower_Shape": "Simple",
                 "Fused_Petals": "Yes",
                 "Latin_Name": "Datura wrightii",
                 "Number_Petals": "5",
@@ -680,7 +680,7 @@ var app = new Vue({
                 "Size": "12-40 inches (30-100 cm) tall",
                 "Color": "White",
                 "Flower_Arrangement": "Few-Solitary",
-                "Leaf_Arrangement::Arrangement": "Alternate",
+                "Leaf_Arrangement": "Alternate",
                 "Photos": 5
             },
             { 
@@ -698,7 +698,7 @@ var app = new Vue({
                 "Size": "1-3+ feet (30-90+ cm) tall",
                 "Color": "Red",
                 "Flower_Arrangement": "Raceme",
-                "Leaf_Arrangement::Arrangement": "Alternate",
+                "Leaf_Arrangement": "Alternate",
                 "Photos": 3
             },
             { 
@@ -716,7 +716,7 @@ var app = new Vue({
                 "Size": "4.5-20 inches (11-50 cm) tall",
                 "Color": "White",
                 "Flower_Arrangement": "Raceme",
-                "Leaf_Arrangement::Arrangement": "Alternate",
+                "Leaf_Arrangement": "Alternate",
                 "Photos": 4
             },
             { 
@@ -726,7 +726,7 @@ var app = new Vue({
                 "General_Info": "A fairly common plant of sandy areas, especially riverbanks, floodplains and washes. Pa'rus and Coalpits have great blooms especially. Very similar to the cultivated flax (L. usitatissimum), which hasn't been found here. Plants in Zion are subspecies lewisii.",
                 "Blooming_Months": "Apr, May, Jun, Jul, Aug",
                 "Family_Name": "Linaceae (flax)",
-                "Flower_Shape": "Radially Symmetrical",
+                "Flower_Shape": "Simple",
                 "Fused_Petals": "",
                 "Latin_Name": "Linum perenne",
                 "Number_Petals": "5",
@@ -734,7 +734,7 @@ var app = new Vue({
                 "Size": "6-30 inches (15-80 cm) tall",
                 "Color": "Blue",
                 "Flower_Arrangement": "Few-Solitary",
-                "Leaf_Arrangement::Arrangement": "Alternate",
+                "Leaf_Arrangement": "Alternate",
                 "Photos": 5
             },
             { 
@@ -744,7 +744,7 @@ var app = new Vue({
                 "General_Info": "Found in sandy areas, like near the East Entrance. L. subteres (Utah yellow flax) is similar, but is a perennial and the sepals stay with the fruit as it matures.",
                 "Blooming_Months": "Apr, May, Jun",
                 "Family_Name": "Linaceae (flax)",
-                "Flower_Shape": "Radially Symmetrical",
+                "Flower_Shape": "Simple",
                 "Fused_Petals": "",
                 "Latin_Name": "Linum aristatum",
                 "Number_Petals": "5",
@@ -752,7 +752,7 @@ var app = new Vue({
                 "Size": "4-13 inches (10-45 cm) tall",
                 "Color": "Yellow",
                 "Flower_Arrangement": "Few-Solitary",
-                "Leaf_Arrangement::Arrangement": "Alternate",
+                "Leaf_Arrangement": "Alternate",
                 "Photos": 4
             },
             { 
@@ -762,7 +762,7 @@ var app = new Vue({
                 "General_Info": "Extremely common, mostly in areas of natural or human-caused disturbance. This plant was probably introduced to North America a long time ago, as it was documented on very early botanical surveys of the west. The seeds drill into the soil by the use of their corkscrew shape and hairs that are aligned in a similar direction (see photo).",
                 "Blooming_Months": "Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Nov, Dec",
                 "Family_Name": "Geraniaceae (geranium)",
-                "Flower_Shape": "Radially Symmetrical",
+                "Flower_Shape": "Simple",
                 "Fused_Petals": "",
                 "Latin_Name": "Erodium cicutarium",
                 "Number_Petals": "5",
@@ -770,7 +770,7 @@ var app = new Vue({
                 "Size": "2-20 inches (5-50+ cm) tall",
                 "Color": "Pink",
                 "Flower_Arrangement": "Umbel",
-                "Leaf_Arrangement::Arrangement": "Basal",
+                "Leaf_Arrangement": "Basal",
                 "Photos": 3
             },
             { 
@@ -780,7 +780,7 @@ var app = new Vue({
                 "General_Info": "Also known as yellow-throats. More abundant in years with sufficient precipitation. The Chinle Trail might be your best bet as well as the loop at the top of Watchman Trail and at Coalpits Wash.",
                 "Blooming_Months": "Feb, Mar, Apr, May",
                 "Family_Name": "Hydrophyllaceae (waterleaf)",
-                "Flower_Shape": "Radially Symmetrical",
+                "Flower_Shape": "Simple",
                 "Fused_Petals": "Yes",
                 "Latin_Name": "Phacelia fremontii",
                 "Number_Petals": "5",
@@ -788,7 +788,7 @@ var app = new Vue({
                 "Size": "1.5-10 inches (4-26 cm) tall",
                 "Color": "Blue",
                 "Flower_Arrangement": "Few-Solitary",
-                "Leaf_Arrangement::Arrangement": "Basal",
+                "Leaf_Arrangement": "Basal",
                 "Photos": 4
             },
             { 
@@ -806,7 +806,7 @@ var app = new Vue({
                 "Size": "2-4+ feet (60-122+ cm) tall",
                 "Color": "Yellow",
                 "Flower_Arrangement": "Raceme",
-                "Leaf_Arrangement::Arrangement": "Alternate",
+                "Leaf_Arrangement": "Alternate",
                 "Photos": 5
             },
             { 
@@ -816,7 +816,7 @@ var app = new Vue({
                 "General_Info": "Found in sandy areas. Individual pictured was photographed early in the year. The inflorescence will elongate into many clusters of flowers similar to C. purpureus.",
                 "Blooming_Months": "Feb, Mar, Apr, May",
                 "Family_Name": "Apiaceae (parsley)",
-                "Flower_Shape": "Radially Symmetrical",
+                "Flower_Shape": "Simple",
                 "Fused_Petals": "",
                 "Latin_Name": "Cymopterus newberryi",
                 "Number_Petals": "5",
@@ -824,7 +824,7 @@ var app = new Vue({
                 "Size": "3-7 inches (8-18 cm) tall",
                 "Color": "Yellow",
                 "Flower_Arrangement": "Umbel",
-                "Leaf_Arrangement::Arrangement": "Basal",
+                "Leaf_Arrangement": "Basal",
                 "Photos": 2
             },
             { 
@@ -834,7 +834,7 @@ var app = new Vue({
                 "General_Info": "This pretty little plant is easy to miss. Overall an uncommon and very early bloomer.  Prefers sandy soils, especially on the east side of the park. Reliably blooms in the upper stretch of Canyon Overlook, mostly near manzanita. ",
                 "Blooming_Months": "Feb, Mar, Apr, May",
                 "Family_Name": "Ranunculaceae (buttercup)",
-                "Flower_Shape": "Radially Symmetrical",
+                "Flower_Shape": "Simple",
                 "Fused_Petals": "",
                 "Latin_Name": "Ranunculus andersonii",
                 "Number_Petals": "5",
@@ -842,7 +842,7 @@ var app = new Vue({
                 "Size": "2-12 inches (5-30 cm) tall",
                 "Color": "Purple",
                 "Flower_Arrangement": "Few-Solitary",
-                "Leaf_Arrangement::Arrangement": "Basal",
+                "Leaf_Arrangement": "Basal",
                 "Photos": 3
             },
             { 
@@ -852,7 +852,7 @@ var app = new Vue({
                 "General_Info": "Greenleaf manzanita (A. patula) is a closely related species that is also found in Zion. It often has miniscule glands on the flower/fruit stems (peduncles).",
                 "Blooming_Months": "Feb, Mar, Apr, May, Jun",
                 "Family_Name": "Ericaceae (heath)",
-                "Flower_Shape": "Radially Symmetrical",
+                "Flower_Shape": "Simple",
                 "Fused_Petals": "Yes",
                 "Latin_Name": "Arctostaphylos pungens",
                 "Number_Petals": "5",
@@ -860,7 +860,7 @@ var app = new Vue({
                 "Size": "To 6+ feet (1.8 m) tall",
                 "Color": "Pink",
                 "Flower_Arrangement": "Panicle",
-                "Leaf_Arrangement::Arrangement": "Alternate",
+                "Leaf_Arrangement": "Alternate",
                 "Photos": 3
             },
             { 
@@ -870,7 +870,7 @@ var app = new Vue({
                 "General_Info": "A common and distinctive slickrock species. Look for it at Canyon Overlook and Emerald Pools.",
                 "Blooming_Months": "Aug, Sep",
                 "Family_Name": "Rosaceae (rose)",
-                "Flower_Shape": "Radially Symmetrical",
+                "Flower_Shape": "Simple",
                 "Fused_Petals": "",
                 "Latin_Name": "Petrophytum caespitosum",
                 "Number_Petals": "5",
@@ -878,7 +878,7 @@ var app = new Vue({
                 "Size": "Stalks to 6 inches (15 cm) tall",
                 "Color": "White",
                 "Flower_Arrangement": "Raceme",
-                "Leaf_Arrangement::Arrangement": "Basal",
+                "Leaf_Arrangement": "Basal",
                 "Photos": 4
             },
             { 
@@ -896,7 +896,7 @@ var app = new Vue({
                 "Size": "2.4-16 inches (6-40 cm) tall",
                 "Color": "Yellow",
                 "Flower_Arrangement": "Raceme",
-                "Leaf_Arrangement::Arrangement": "Alternate",
+                "Leaf_Arrangement": "Alternate",
                 "Photos": 3
             },
             { 
@@ -906,7 +906,7 @@ var app = new Vue({
                 "General_Info": "Also known as variable spring-parsley, this species lives true to its name. Leaf and fruit characters, among others, vary considerably. This has given rise to many varieties. A fairly common plant of mostly low to middle elevations. Found along most trails in the park except at the highest elevations. ",
                 "Blooming_Months": "Apr, May, Jun",
                 "Family_Name": "Apiaceae (parsley)",
-                "Flower_Shape": "Radially Symmetrical",
+                "Flower_Shape": "Simple",
                 "Fused_Petals": "Yes",
                 "Latin_Name": "Cymopterus purpureus",
                 "Number_Petals": "5",
@@ -914,7 +914,7 @@ var app = new Vue({
                 "Size": "2-10 inches (5-25 cm) tall",
                 "Color": "Yellow",
                 "Flower_Arrangement": "Umbel",
-                "Leaf_Arrangement::Arrangement": "Basal",
+                "Leaf_Arrangement": "Basal",
                 "Photos": 4
             },
             { 
@@ -932,7 +932,7 @@ var app = new Vue({
                 "Size": "8-24 inches (20-60 cm) tall",
                 "Color": "Purple",
                 "Flower_Arrangement": "Raceme",
-                "Leaf_Arrangement::Arrangement": "Alternate",
+                "Leaf_Arrangement": "Alternate",
                 "Photos": 4
             },
             { 
@@ -942,7 +942,7 @@ var app = new Vue({
                 "General_Info": "Generally very uncommon but worth searching for. Prefers middle to low elevations, mostly nestled amongst boulders.",
                 "Blooming_Months": "Mar, Apr, May",
                 "Family_Name": "Ranunculaceae (buttercup)",
-                "Flower_Shape": "Radially Symmetrical",
+                "Flower_Shape": "Simple",
                 "Fused_Petals": "",
                 "Latin_Name": "Anemone tuberosa",
                 "Number_Petals": "8-10",
@@ -950,7 +950,7 @@ var app = new Vue({
                 "Size": "4-20 inches (10-50 cm) tall",
                 "Color": "White",
                 "Flower_Arrangement": "Few-Solitary",
-                "Leaf_Arrangement::Arrangement": "Whorled",
+                "Leaf_Arrangement": "Whorled",
                 "Photos": 3
             },
             { 
@@ -960,7 +960,7 @@ var app = new Vue({
                 "General_Info": "Fairly inconspicuous and common. May be confused with the much larger exotic salsify (Tragopogon dubius), which has distinctive clasping stem leaves and pappi of long hairs. ",
                 "Blooming_Months": "Mar, Apr, May, Jun",
                 "Family_Name": "Asteraceae (sunflower)",
-                "Flower_Shape": "Daisy/Thistle-like",
+                "Flower_Shape": "Daisy",
                 "Fused_Petals": "",
                 "Latin_Name": "Microseris lindleyi",
                 "Number_Petals": "7+",
@@ -968,7 +968,7 @@ var app = new Vue({
                 "Size": "6-15+ inches (15-40+ cm) tall",
                 "Color": "Yellow",
                 "Flower_Arrangement": "Few-Solitary",
-                "Leaf_Arrangement::Arrangement": "Basal",
+                "Leaf_Arrangement": "Basal",
                 "Photos": 3
             },
             { 
@@ -978,7 +978,7 @@ var app = new Vue({
                 "General_Info": "Abundant in campgrounds and other areas of human habitation, especially where moist. Originally planted as an ornamental plant, now escaping into more natural areas.",
                 "Blooming_Months": "Apr, May, Jun",
                 "Family_Name": "Apocynaceae (dogbane)",
-                "Flower_Shape": "Radially Symmetrical",
+                "Flower_Shape": "Simple",
                 "Fused_Petals": "",
                 "Latin_Name": "Vinca major",
                 "Number_Petals": "5",
@@ -986,7 +986,7 @@ var app = new Vue({
                 "Size": "6-24 inches (15-60 cm) tall",
                 "Color": "Purple",
                 "Flower_Arrangement": "Few-Solitary",
-                "Leaf_Arrangement::Arrangement": "Opposite",
+                "Leaf_Arrangement": "Opposite",
                 "Photos": 3
             },
             { 
@@ -996,7 +996,7 @@ var app = new Vue({
                 "General_Info": "Common. Found in moist or shaded places like oak woodlands, floodplains and seeps. Edible but not recommended due to the low level of toxins present.",
                 "Blooming_Months": "Apr, May, Jun, Jul",
                 "Family_Name": "Portulaceae (purslane)",
-                "Flower_Shape": "Radially Symmetrical",
+                "Flower_Shape": "Simple",
                 "Fused_Petals": "",
                 "Latin_Name": "Montia perfoliata",
                 "Number_Petals": "5",
@@ -1004,7 +1004,7 @@ var app = new Vue({
                 "Size": "2-8 inches (5-20 cm) tall",
                 "Color": "White",
                 "Flower_Arrangement": "Few-Solitary",
-                "Leaf_Arrangement::Arrangement": "Basal",
+                "Leaf_Arrangement": "Basal",
                 "Photos": 3
             },
             { 
@@ -1014,7 +1014,7 @@ var app = new Vue({
                 "General_Info": "This species prefers higher elevations than A. pungens, especially with ponderosa pine. Hybrids appear to exist between our two known species of manzanita. ",
                 "Blooming_Months": "Mar, Apr, May, Jun, Jul",
                 "Family_Name": "Ericaceae (heath)",
-                "Flower_Shape": "Radially Symmetrical",
+                "Flower_Shape": "Simple",
                 "Fused_Petals": "Yes",
                 "Latin_Name": "Arctostaphylos patula",
                 "Number_Petals": "5",
@@ -1022,7 +1022,7 @@ var app = new Vue({
                 "Size": "To 5 feet (1.5 m) tall",
                 "Color": "Pink",
                 "Flower_Arrangement": "Panicle",
-                "Leaf_Arrangement::Arrangement": "Alternate",
+                "Leaf_Arrangement": "Alternate",
                 "Photos": 4
             },
             { 
@@ -1032,7 +1032,7 @@ var app = new Vue({
                 "General_Info": "See information under wedgeleaf draba (D. cuneifolia). ",
                 "Blooming_Months": "Mar, Apr, May, Jun, Jul",
                 "Family_Name": "Brassicaceae (mustard)",
-                "Flower_Shape": "Radially Symmetrical",
+                "Flower_Shape": "Simple",
                 "Fused_Petals": "",
                 "Latin_Name": "Draba reptans",
                 "Number_Petals": "4",
@@ -1040,7 +1040,7 @@ var app = new Vue({
                 "Size": "0.8-4 inches (2-10 cm) tall",
                 "Color": "White",
                 "Flower_Arrangement": "Raceme",
-                "Leaf_Arrangement::Arrangement": "Basal",
+                "Leaf_Arrangement": "Basal",
                 "Photos": 3
             },
             { 
@@ -1058,7 +1058,7 @@ var app = new Vue({
                 "Size": "3-8 inches (7-20 cm) tall",
                 "Color": "Pink",
                 "Flower_Arrangement": "Raceme",
-                "Leaf_Arrangement::Arrangement": "Alternate",
+                "Leaf_Arrangement": "Alternate",
                 "Photos": 4
             },
             { 
@@ -1068,7 +1068,7 @@ var app = new Vue({
                 "General_Info": "Three varieties are known to occur here: austromontana, jonesii and prostrata. They differ mostly by how densely the leaves grow on the stem.",
                 "Blooming_Months": "Mar, Apr, May, Jun",
                 "Family_Name": "Polemoniaceae (phlox)",
-                "Flower_Shape": "Radially Symmetrical",
+                "Flower_Shape": "Simple",
                 "Fused_Petals": "",
                 "Latin_Name": "Phlox austromontana",
                 "Number_Petals": "5",
@@ -1076,7 +1076,7 @@ var app = new Vue({
                 "Size": "To 4 inches (10 cm) tall",
                 "Color": "Pink",
                 "Flower_Arrangement": "Few-Solitary",
-                "Leaf_Arrangement::Arrangement": "Opposite",
+                "Leaf_Arrangement": "Opposite",
                 "Photos": 3
             },
             { 
@@ -1094,7 +1094,7 @@ var app = new Vue({
                 "Size": "4-10 inches (10-25 cm) tall",
                 "Color": "Purple",
                 "Flower_Arrangement": "Raceme",
-                "Leaf_Arrangement::Arrangement": "Alternate",
+                "Leaf_Arrangement": "Alternate",
                 "Photos": 3
             },
             { 
@@ -1104,7 +1104,7 @@ var app = new Vue({
                 "General_Info": "This is the most distinct of the three species of wirelettuce in the park. Prefers sandy soils and sandstone. Especially common on the east side of Zion.",
                 "Blooming_Months": "Jun, Jul, Aug, Sep",
                 "Family_Name": "Asteraceae (sunflower)",
-                "Flower_Shape": "Radially Symmetrical",
+                "Flower_Shape": "Simple",
                 "Fused_Petals": "",
                 "Latin_Name": "Stephanomeria tenuifolia",
                 "Number_Petals": "4-6",
@@ -1112,7 +1112,7 @@ var app = new Vue({
                 "Size": "12-30+ inches (30-75+ cm) tall",
                 "Color": "White",
                 "Flower_Arrangement": "Few-Solitary",
-                "Leaf_Arrangement::Arrangement": "Alternate",
+                "Leaf_Arrangement": "Alternate",
                 "Photos": 4
             },
             { 
@@ -1130,7 +1130,7 @@ var app = new Vue({
                 "Size": "2-4 inches (5-10 cm) tall",
                 "Color": "Blue",
                 "Flower_Arrangement": "Few-Solitary",
-                "Leaf_Arrangement::Arrangement": "Opposite",
+                "Leaf_Arrangement": "Opposite",
                 "Photos": 2
             },
             { 
@@ -1140,7 +1140,7 @@ var app = new Vue({
                 "General_Info": "NA",
                 "Blooming_Months": "Mar, Apr",
                 "Family_Name": "Brassicaceae (mustard)",
-                "Flower_Shape": "Radially Symmetrical",
+                "Flower_Shape": "Simple",
                 "Fused_Petals": "",
                 "Latin_Name": "Draba verna",
                 "Number_Petals": "4",
@@ -1148,7 +1148,7 @@ var app = new Vue({
                 "Size": "1-5+ inches (2.5-12+ cm) tall",
                 "Color": "White",
                 "Flower_Arrangement": "Raceme",
-                "Leaf_Arrangement::Arrangement": "Basal",
+                "Leaf_Arrangement": "Basal",
                 "Photos": 2
             },
             { 
@@ -1158,7 +1158,7 @@ var app = new Vue({
                 "General_Info": "Becoming very common mostly in the Main Canyon. Small alyssum (A. parviflorum) also occurs, and can be distinguished by distinctly hairy pods.",
                 "Blooming_Months": "Mar, Apr, May",
                 "Family_Name": "Brassicaceae (mustard)",
-                "Flower_Shape": "Radially Symmetrical",
+                "Flower_Shape": "Simple",
                 "Fused_Petals": "",
                 "Latin_Name": "Alyssum desertorum",
                 "Number_Petals": "4",
@@ -1166,7 +1166,7 @@ var app = new Vue({
                 "Size": "2-12 inches (5-30 cm) tall",
                 "Color": "Yellow",
                 "Flower_Arrangement": "Raceme",
-                "Leaf_Arrangement::Arrangement": "Alternate",
+                "Leaf_Arrangement": "Alternate",
                 "Photos": 3
             },
             { 
@@ -1176,7 +1176,7 @@ var app = new Vue({
                 "General_Info": "This tiny phlox prefers sandy areas, especially flood plains. It is frequently found flowering with annual Draba species and blue-eyed Mary (Collinsia parviflora). Ours are var. humilior. ",
                 "Blooming_Months": "Mar, Apr, May, Jun",
                 "Family_Name": "Polemoniaceae (phlox)",
-                "Flower_Shape": "Radially Symmetrical",
+                "Flower_Shape": "Simple",
                 "Fused_Petals": "",
                 "Latin_Name": "Microsteris gracilis",
                 "Number_Petals": "5",
@@ -1184,7 +1184,7 @@ var app = new Vue({
                 "Size": "1-6 inches (3-15 cm) tall",
                 "Color": "Pink",
                 "Flower_Arrangement": "Few-Solitary",
-                "Leaf_Arrangement::Arrangement": "Alternate",
+                "Leaf_Arrangement": "Alternate",
                 "Photos": 3
             },
             { 
@@ -1194,7 +1194,7 @@ var app = new Vue({
                 "General_Info": "One of the most common and showy plants of the spring. It can be found at virtually every trail in the park. Our plants are var. purshii. ",
                 "Blooming_Months": "Apr, May, Jun, Jul, Aug",
                 "Family_Name": "Brassicaceae (mustard)",
-                "Flower_Shape": "Radially Symmetrical",
+                "Flower_Shape": "Simple",
                 "Fused_Petals": "",
                 "Latin_Name": "Erysimum asperum",
                 "Number_Petals": "4",
@@ -1202,7 +1202,7 @@ var app = new Vue({
                 "Size": "6-30 inches (15-80 cm) tall",
                 "Color": "Yellow",
                 "Flower_Arrangement": "Raceme",
-                "Leaf_Arrangement::Arrangement": "Alternate",
+                "Leaf_Arrangement": "Alternate",
                 "Photos": 4
             },
             { 
@@ -1212,7 +1212,7 @@ var app = new Vue({
                 "General_Info": "Three varieties are found in Zion, heterophyllum, jonesii and montanum, with var. jonesii (Jones' pepperplant) being the most common., Fremont's pepperplant (L. fremontii) can be very similar. It has woody branches throughout the plant and larger fruit (4.5+ mm long), among other characters.",
                 "Blooming_Months": "Mar, Apr, May, Jun, Jul, Aug, Sep",
                 "Family_Name": "Brassicaceae (mustard)",
-                "Flower_Shape": "Radially Symmetrical",
+                "Flower_Shape": "Simple",
                 "Fused_Petals": "",
                 "Latin_Name": "Lepidium montanum ",
                 "Number_Petals": "4",
@@ -1220,7 +1220,7 @@ var app = new Vue({
                 "Size": "4-24 inches (10-60 cm) tall",
                 "Color": "White",
                 "Flower_Arrangement": "Raceme",
-                "Leaf_Arrangement::Arrangement": "Alternate",
+                "Leaf_Arrangement": "Alternate",
                 "Photos": 3
             },
             { 
@@ -1230,7 +1230,7 @@ var app = new Vue({
                 "General_Info": "This is a variable species. The simple leaves and tall stature distinguish it from most others in the family. ",
                 "Blooming_Months": "Mar, Apr, May, Jun, Jul",
                 "Family_Name": "Polemoniaceae (phlox)",
-                "Flower_Shape": "Radially Symmetrical",
+                "Flower_Shape": "Simple",
                 "Fused_Petals": "",
                 "Latin_Name": "Phlox longifolia",
                 "Number_Petals": "5",
@@ -1238,7 +1238,7 @@ var app = new Vue({
                 "Size": "2-16 inches (5-40 cm) tall",
                 "Color": "White",
                 "Flower_Arrangement": "Few-Solitary",
-                "Leaf_Arrangement::Arrangement": "Opposite",
+                "Leaf_Arrangement": "Opposite",
                 "Photos": 2
             },
             { 
@@ -1248,7 +1248,7 @@ var app = new Vue({
                 "General_Info": "Look for it at Coalpits Wash and the Chinle Trail, among other locations. Although many spring-parsleys can be difficult to identify, this one is simple.",
                 "Blooming_Months": "Mar, Apr",
                 "Family_Name": "Apiaceae (parsley)",
-                "Flower_Shape": "Radially Symmetrical",
+                "Flower_Shape": "Simple",
                 "Fused_Petals": "",
                 "Latin_Name": "Cymopterus multinervatus",
                 "Number_Petals": "5",
@@ -1256,7 +1256,7 @@ var app = new Vue({
                 "Size": "2-10 inches (5-25 cm) tall",
                 "Color": "Purple",
                 "Flower_Arrangement": "Umbel",
-                "Leaf_Arrangement::Arrangement": "Basal",
+                "Leaf_Arrangement": "Basal",
                 "Photos": 3
             },
             { 
@@ -1266,7 +1266,7 @@ var app = new Vue({
                 "General_Info": "NA",
                 "Blooming_Months": "Apr, May, Jun",
                 "Family_Name": "Cactaceae (cactus)",
-                "Flower_Shape": "Radially Symmetrical",
+                "Flower_Shape": "Simple",
                 "Fused_Petals": "Yes",
                 "Latin_Name": "Echinocereus triglochidiatus",
                 "Number_Petals": "7+",
@@ -1274,7 +1274,7 @@ var app = new Vue({
                 "Size": "3-6 inches (8-15 cm) tall",
                 "Color": "Red",
                 "Flower_Arrangement": "Few-Solitary",
-                "Leaf_Arrangement::Arrangement": "No-Apparent Leaves",
+                "Leaf_Arrangement": "No-Apparent Leaves",
                 "Photos": 3
             },
             { 
@@ -1292,7 +1292,7 @@ var app = new Vue({
                 "Size": "1-4 inches (2-10 cm) tall",
                 "Color": "Yellow",
                 "Flower_Arrangement": "Few-Solitary",
-                "Leaf_Arrangement::Arrangement": "Opposite",
+                "Leaf_Arrangement": "Opposite",
                 "Photos": 2
             },
             { 
@@ -1310,7 +1310,7 @@ var app = new Vue({
                 "Size": "1-7 inches (2.5-18 cm) tall",
                 "Color": "Purple",
                 "Flower_Arrangement": "Few-Solitary",
-                "Leaf_Arrangement::Arrangement": "Opposite",
+                "Leaf_Arrangement": "Opposite",
                 "Photos": 3
             },
             { 
@@ -1320,7 +1320,7 @@ var app = new Vue({
                 "General_Info": "Mostly found in sandy or gravely soils. Superficially similar to heartleaf jewelflower (Streptanthus cordatus). The Watchman Trail in particular has healthy populations.",
                 "Blooming_Months": "Mar, Apr, May, Jun",
                 "Family_Name": "Brassicaceae (mustard)",
-                "Flower_Shape": "Radially Symmetrical",
+                "Flower_Shape": "Simple",
                 "Fused_Petals": "Yes",
                 "Latin_Name": "Streptanthella longirostris",
                 "Number_Petals": "4",
@@ -1328,7 +1328,7 @@ var app = new Vue({
                 "Size": "6-24+ inches (15-60+ cm) tall",
                 "Color": "White",
                 "Flower_Arrangement": "Raceme",
-                "Leaf_Arrangement::Arrangement": "Alternate",
+                "Leaf_Arrangement": "Alternate",
                 "Photos": 3
             },
             { 
@@ -1346,7 +1346,7 @@ var app = new Vue({
                 "Size": "10-24+ inches (25-60+ cm) tall",
                 "Color": "Red",
                 "Flower_Arrangement": "Raceme",
-                "Leaf_Arrangement::Arrangement": "Opposite",
+                "Leaf_Arrangement": "Opposite",
                 "Photos": 3
             },
             { 
@@ -1356,7 +1356,7 @@ var app = new Vue({
                 "General_Info": "Especially common in disturbed areas in the main canyon. Synonymous with Xanthisma gracile.",
                 "Blooming_Months": "Apr, May, Jun, Jul, Aug, Sep, Oct",
                 "Family_Name": "Asteraceae (sunflower)",
-                "Flower_Shape": "Daisy/Thistle-like",
+                "Flower_Shape": "Daisy",
                 "Fused_Petals": "",
                 "Latin_Name": "Haploppapus gracilis",
                 "Number_Petals": "7+",
@@ -1364,7 +1364,7 @@ var app = new Vue({
                 "Size": "1-8+ inches (2.5-20+ cm) tall",
                 "Color": "Yellow",
                 "Flower_Arrangement": "Few-Solitary",
-                "Leaf_Arrangement::Arrangement": "Basal",
+                "Leaf_Arrangement": "Basal",
                 "Photos": 3
             },
             { 
@@ -1382,7 +1382,7 @@ var app = new Vue({
                 "Size": "8-30+ inches (20-75+ cm) tall",
                 "Color": "Purple",
                 "Flower_Arrangement": "Raceme",
-                "Leaf_Arrangement::Arrangement": "Opposite",
+                "Leaf_Arrangement": "Opposite",
                 "Photos": 4
             },
             { 
@@ -1392,7 +1392,7 @@ var app = new Vue({
                 "General_Info": "As the name implies this plant is poisonous.",
                 "Blooming_Months": "Mar, Apr, May, Jun",
                 "Family_Name": "Liliaceae (lily)",
-                "Flower_Shape": "Radially Symmetrical",
+                "Flower_Shape": "Simple",
                 "Fused_Petals": "",
                 "Latin_Name": "Zigadenus paniculatus",
                 "Number_Petals": "6",
@@ -1400,7 +1400,7 @@ var app = new Vue({
                 "Size": "6-24 inches (15-60 cm) tall",
                 "Color": "White",
                 "Flower_Arrangement": "Raceme",
-                "Leaf_Arrangement::Arrangement": "Basal",
+                "Leaf_Arrangement": "Basal",
                 "Photos": 4
             },
             { 
@@ -1410,7 +1410,7 @@ var app = new Vue({
                 "General_Info": "Seems to prefer soils rich in clay in Zion, especially on otherwise barren hillsides. Often only the leaves emerge in a given year, leaving relatively few flowering stems in a population. Look for it at the loop in the Watchman Trail.",
                 "Blooming_Months": "Apr, May",
                 "Family_Name": "Liliaceae (lily)",
-                "Flower_Shape": "Radially Symmetrical",
+                "Flower_Shape": "Simple",
                 "Fused_Petals": "Yes",
                 "Latin_Name": "Androstephium breviflorum",
                 "Number_Petals": "6",
@@ -1418,7 +1418,7 @@ var app = new Vue({
                 "Size": "4-12 inches (10-30 cm) tall",
                 "Color": "Pink",
                 "Flower_Arrangement": "Umbel",
-                "Leaf_Arrangement::Arrangement": "Basal",
+                "Leaf_Arrangement": "Basal",
                 "Photos": 3
             },
             { 
@@ -1428,7 +1428,7 @@ var app = new Vue({
                 "General_Info": "State flower of Utah. Four species of Calochortus are known in Zion.",
                 "Blooming_Months": "Jun, Jul",
                 "Family_Name": "Liliaceae (lily)",
-                "Flower_Shape": "Radially Symmetrical",
+                "Flower_Shape": "Simple",
                 "Fused_Petals": "",
                 "Latin_Name": "Calochortus nuttallii",
                 "Number_Petals": "3",
@@ -1436,7 +1436,7 @@ var app = new Vue({
                 "Size": "4-16 inches (10-40 cm) tall",
                 "Color": "White",
                 "Flower_Arrangement": "Few-Solitary",
-                "Leaf_Arrangement::Arrangement": "Alternate",
+                "Leaf_Arrangement": "Alternate",
                 "Photos": 4
             },
             { 
@@ -1446,7 +1446,7 @@ var app = new Vue({
                 "General_Info": "Four species of Calochortus are known in Zion. The stems alone are often enough to distinguish this species.",
                 "Blooming_Months": "Apr, May, Jun",
                 "Family_Name": "Liliaceae (lily)",
-                "Flower_Shape": "Radially Symmetrical",
+                "Flower_Shape": "Simple",
                 "Fused_Petals": "",
                 "Latin_Name": "Calochortus flexuosus",
                 "Number_Petals": "3",
@@ -1454,7 +1454,7 @@ var app = new Vue({
                 "Size": "4-16+ inches (10-40+ cm) tall",
                 "Color": "Purple",
                 "Flower_Arrangement": "Few-Solitary",
-                "Leaf_Arrangement::Arrangement": "Alternate",
+                "Leaf_Arrangement": "Alternate",
                 "Photos": 4
             },
             { 
@@ -1464,7 +1464,7 @@ var app = new Vue({
                 "General_Info": "Uncommon overall, though locally common in suitable habitat.",
                 "Blooming_Months": "Apr, May, Jun, Jul",
                 "Family_Name": "Asteraceae (sunflower)",
-                "Flower_Shape": "Daisy/Thistle-like",
+                "Flower_Shape": "Daisy",
                 "Fused_Petals": "",
                 "Latin_Name": "Layia glandulosa",
                 "Number_Petals": "7+",
@@ -1472,7 +1472,7 @@ var app = new Vue({
                 "Size": "4-12+ inches (10-30+ cm) tall",
                 "Color": "White",
                 "Flower_Arrangement": "Few-Solitary",
-                "Leaf_Arrangement::Arrangement": "Alternate",
+                "Leaf_Arrangement": "Alternate",
                 "Photos": 2
             },
             { 
@@ -1482,7 +1482,7 @@ var app = new Vue({
                 "General_Info": "Prefers moist or shaded areas on thin soil formed on rock. Fairly common on many trails, but Emerald Pools in particular.",
                 "Blooming_Months": "Apr, May, Jun, Jul, Aug, Sep",
                 "Family_Name": "Saxifragaceae (saxifrage)",
-                "Flower_Shape": "Radially Symmetrical",
+                "Flower_Shape": "Simple",
                 "Fused_Petals": "",
                 "Latin_Name": "Heuchera rubescens",
                 "Number_Petals": "5",
@@ -1490,7 +1490,7 @@ var app = new Vue({
                 "Size": "2-10+ inches (5-25+ cm) tall",
                 "Color": "Pink",
                 "Flower_Arrangement": "Panicle",
-                "Leaf_Arrangement::Arrangement": "Basal",
+                "Leaf_Arrangement": "Basal",
                 "Photos": 4
             },
             { 
@@ -1508,7 +1508,7 @@ var app = new Vue({
                 "Size": "10-40 inches (25-100 cm) tall",
                 "Color": "Purple",
                 "Flower_Arrangement": "Raceme",
-                "Leaf_Arrangement::Arrangement": "Alternate",
+                "Leaf_Arrangement": "Alternate",
                 "Photos": 6
             },
             { 
@@ -1518,7 +1518,7 @@ var app = new Vue({
                 "General_Info": "A very common Senecio of a wide variety of habitats.  ",
                 "Blooming_Months": "Apr, May, Jun, Jul, Aug",
                 "Family_Name": "Asteraceae (sunflower)",
-                "Flower_Shape": "Daisy/Thistle-like",
+                "Flower_Shape": "Daisy",
                 "Fused_Petals": "",
                 "Latin_Name": "Senecio multilobatus",
                 "Number_Petals": "5-10",
@@ -1526,7 +1526,7 @@ var app = new Vue({
                 "Size": "8-24 inches (20-60 cm) tall",
                 "Color": "Yellow",
                 "Flower_Arrangement": "Panicle",
-                "Leaf_Arrangement::Arrangement": "Alternate",
+                "Leaf_Arrangement": "Alternate",
                 "Photos": 5
             },
             { 
@@ -1536,7 +1536,7 @@ var app = new Vue({
                 "General_Info": "A very distinctive mustard when in fruit.",
                 "Blooming_Months": "Mar, Apr, May, Jun",
                 "Family_Name": "Brassicaceae (mustard)",
-                "Flower_Shape": "Radially Symmetrical",
+                "Flower_Shape": "Simple",
                 "Fused_Petals": "",
                 "Latin_Name": "Thysanocarpus curvipes",
                 "Number_Petals": "4",
@@ -1544,7 +1544,7 @@ var app = new Vue({
                 "Size": "4-15+ inches (10-40+ cm) tall",
                 "Color": "White",
                 "Flower_Arrangement": "Raceme",
-                "Leaf_Arrangement::Arrangement": "Alternate",
+                "Leaf_Arrangement": "Alternate",
                 "Photos": 3
             },
             { 
@@ -1554,7 +1554,7 @@ var app = new Vue({
                 "General_Info": "One of the more common plants in sandy areas of the park, such as washes, banks and hillsides.",
                 "Blooming_Months": "Apr, May, Jun, Jul, Aug, Sep",
                 "Family_Name": "Nyctaginaceae (four o'clock)",
-                "Flower_Shape": "Radially Symmetrical",
+                "Flower_Shape": "Simple",
                 "Fused_Petals": "",
                 "Latin_Name": "Abronia fragrans",
                 "Number_Petals": "5",
@@ -1562,7 +1562,7 @@ var app = new Vue({
                 "Size": "6-20 inches (15-50 cm) tall",
                 "Color": "White",
                 "Flower_Arrangement": "Umbel",
-                "Leaf_Arrangement::Arrangement": "Opposite",
+                "Leaf_Arrangement": "Opposite",
                 "Photos": 3
             },
             { 
@@ -1572,7 +1572,7 @@ var app = new Vue({
                 "General_Info": "NA",
                 "Blooming_Months": "Mar, Apr, May, Jun, Jul",
                 "Family_Name": "Polemoniaceae (phlox)",
-                "Flower_Shape": "Radially Symmetrical",
+                "Flower_Shape": "Simple",
                 "Fused_Petals": "Yes",
                 "Latin_Name": "Gilia inconspicua",
                 "Number_Petals": "5",
@@ -1580,7 +1580,7 @@ var app = new Vue({
                 "Size": "1-6+ inches (2.5-15+ cm) tall",
                 "Color": "White",
                 "Flower_Arrangement": "Panicle",
-                "Leaf_Arrangement::Arrangement": "Alternate",
+                "Leaf_Arrangement": "Alternate",
                 "Photos": 2
             },
             { 
@@ -1590,7 +1590,7 @@ var app = new Vue({
                 "General_Info": "Often locally common along most trails.",
                 "Blooming_Months": "Mar, Apr, May",
                 "Family_Name": "Liliaceae (lily)",
-                "Flower_Shape": "Radially Symmetrical",
+                "Flower_Shape": "Simple",
                 "Fused_Petals": "",
                 "Latin_Name": "Dichelostemma pulchellum",
                 "Number_Petals": "6",
@@ -1598,7 +1598,7 @@ var app = new Vue({
                 "Size": "12-24 inches (30-60 cm) tall",
                 "Color": "Blue",
                 "Flower_Arrangement": "Umbel",
-                "Leaf_Arrangement::Arrangement": "Basal",
+                "Leaf_Arrangement": "Basal",
                 "Photos": 4
             },
             { 
@@ -1608,7 +1608,7 @@ var app = new Vue({
                 "General_Info": "A very similar species found in the park is the locally endemic and rare S. rusbyi which tends to be taller with stems and leaves that are only sparsely hairy, especially when compared to the hairs on the calyx. Intermediates between the two appear to occur in Zion, even when other characters are observed in conjunction (such as fruit dimensions). ",
                 "Blooming_Months": "Mar, Apr, May, Jun, Jul, Aug, Sep, Oct",
                 "Family_Name": "Malvaceae (mallow)",
-                "Flower_Shape": "Radially Symmetrical",
+                "Flower_Shape": "Simple",
                 "Fused_Petals": "",
                 "Latin_Name": "Sphaeralcea grossulariifolia",
                 "Number_Petals": "5",
@@ -1616,7 +1616,7 @@ var app = new Vue({
                 "Size": "14-30+ inches (35-75+ cm) tall",
                 "Color": "Orange",
                 "Flower_Arrangement": "Raceme",
-                "Leaf_Arrangement::Arrangement": "Alternate",
+                "Leaf_Arrangement": "Alternate",
                 "Photos": 4
             },
             { 
@@ -1626,7 +1626,7 @@ var app = new Vue({
                 "General_Info": "Cool canyons and higher elevations preferred. The similar L. glabrum is also found in the park. It differs in that it often has purple bulb-like structures in the axils of upper leaves.",
                 "Blooming_Months": "Apr, May, Jun, Jul, Aug",
                 "Family_Name": "Saxifragaceae (saxifrage)",
-                "Flower_Shape": "Radially Symmetrical",
+                "Flower_Shape": "Simple",
                 "Fused_Petals": "",
                 "Latin_Name": "Lithophragma tenellum",
                 "Number_Petals": "5",
@@ -1634,7 +1634,7 @@ var app = new Vue({
                 "Size": "4-18 inches (10-45 cm) tall",
                 "Color": "White",
                 "Flower_Arrangement": "Few-Solitary",
-                "Leaf_Arrangement::Arrangement": "Alternate",
+                "Leaf_Arrangement": "Alternate",
                 "Photos": 2
             }
         ],
@@ -1649,6 +1649,9 @@ var app = new Vue({
                 "Family": "Pinaceae (pine)",
                 "Height": "To 100 feet (30 m)",
                 "Latin_Name": "Abies concolor",
+                "Type": "Needles",
+                "Needle_Count": "1",
+                "Leaf_Shape": "",
                 "Photos": 4
             },
             {
@@ -1661,6 +1664,9 @@ var app = new Vue({
                 "Family": "Aceraceae (maple)",
                 "Height": "To 20+ feet (6+ m)",
                 "Latin_Name": "Acer grandidentatum",
+                "Type": "Leaves",
+                "Leaf_Shape": "Linear",
+                "Needle_Count": "",
                 "Photos": 5
             },
             {
@@ -1673,6 +1679,9 @@ var app = new Vue({
                 "Family": "Aceraceae (maple)",
                 "Height": "To 30+ feet (9+ m)",
                 "Latin_Name": "Acer negundo",
+                "Type": "Leaves",
+                "Leaf_Shape": "Oval",
+                "Needle_Count": "",
                 "Photos": 4
             },
             {
@@ -1685,6 +1694,9 @@ var app = new Vue({
                 "Family": "Rosaceae (rose)",
                 "Height": "To 10+ feet (3+ m)",
                 "Latin_Name": "Amelanchier utahensis",
+                "Type": "Leaves",
+                "Leaf_Shape": "Oval",
+                "Needle_Count": "",
                 "Photos": 6
             },
             {
@@ -1697,6 +1709,9 @@ var app = new Vue({
                 "Family": "Ulmaceae (elm)",
                 "Height": "To 10+ feet (3+ m)",
                 "Latin_Name": "Celtis reticulata",
+                "Type": "Leaves",
+                "Leaf_Shape": "Oval Triangular",
+                "Needle_Count": "",
                 "Photos": 5
             },
             {
@@ -1709,6 +1724,9 @@ var app = new Vue({
                 "Family": "Elaeagnaceae (oleaster)",
                 "Height": "To 20+ feet (6+ m)",
                 "Latin_Name": "Elaeagnus angustifolia",
+                "Type": "Leaves",
+                "Leaf_Shape": "Oval Linear",
+                "Needle_Count": "",
                 "Photos": 3
             },
             {
@@ -1721,6 +1739,9 @@ var app = new Vue({
                 "Family": "Oleaceae (olive)",
                 "Height": "To 10+ feet (3+ m)",
                 "Latin_Name": "Fraxinus anomala",
+                "Type": "Leaves",
+                "Leaf_Shape": "Oval",
+                "Needle_Count": "",
                 "Photos": 4
             },
             {
@@ -1733,6 +1754,9 @@ var app = new Vue({
                 "Family": "Oleaceae (olive)",
                 "Height": "To 60+ feet (20+ m)",
                 "Latin_Name": "Fraxinus velutina",
+                "Type": "Leaves",
+                "Leaf_Shape": "Oval",
+                "Needle_Count": "",
                 "Photos": 5
             },
             {
@@ -1745,6 +1769,9 @@ var app = new Vue({
                 "Family": "Cupressaceae (cypress)",
                 "Height": "To 15 feet (4.5 m)",
                 "Latin_Name": "Juniperus osteosperma",
+                "Type": "Leaves",
+                "Leaf_Shape": "Other",
+                "Needle_Count": "",
                 "Photos": 4
             },
             {
@@ -1757,6 +1784,9 @@ var app = new Vue({
                 "Family": "Cupressaceae (cypress)",
                 "Height": "To 20+ feet (6+ m)",
                 "Latin_Name": "Juniperus scopulorum",
+                "Type": "Leaves",
+                "Leaf_Shape": "Other",
+                "Needle_Count": "",
                 "Photos": 4
             },
             {
@@ -1769,6 +1799,9 @@ var app = new Vue({
                 "Family": "Pinaceae (pine)",
                 "Height": "To 40 feet (12 m)",
                 "Latin_Name": "Pinus edulis",
+                "Type": "Needles",
+                "Needle_Count": "2",
+                "Leaf_Shape": "",
                 "Photos": 4
             },
             {
@@ -1781,6 +1814,9 @@ var app = new Vue({
                 "Family": "Pinaceae (pine)",
                 "Height": "To 40 feet (12 m)",
                 "Latin_Name": "Pinus monophylla",
+                "Type": "Needles",
+                "Needle_Count": "1",
+                "Leaf_Shape": "",
                 "Photos": 3
             },
             {
@@ -1793,6 +1829,9 @@ var app = new Vue({
                 "Family": "Pinaceae (pine)",
                 "Height": "To 100+ feet (30+ m)",
                 "Latin_Name": "Pinus ponderosa",
+                "Type": "Needles",
+                "Needle_Count": "3",
+                "Leaf_Shape": "",
                 "Photos": 4
             },
             {
@@ -1805,6 +1844,9 @@ var app = new Vue({
                 "Family": "Salicaceae (willow)",
                 "Height": "To 65+ feet (20+ m)",
                 "Latin_Name": "Populus fremontii",
+                "Type": "Leaves",
+                "Leaf_Shape": "Triangular",
+                "Needle_Count": "",
                 "Photos": 6
             },
             {
@@ -1817,6 +1859,9 @@ var app = new Vue({
                 "Family": "Salicaceae (willow)",
                 "Height": "To 50 feet (15 m)",
                 "Latin_Name": "Populus tremuloides",
+                "Type": "Leaves",
+                "Leaf_Shape": "Triangular",
+                "Needle_Count": "",
                 "Photos": 5
             },
             {
@@ -1829,6 +1874,9 @@ var app = new Vue({
                 "Family": "Rosaceae (rose)",
                 "Height": "To 20 feet (6 m)",
                 "Latin_Name": "Prunus virginiana",
+                "Type": "Leaves",
+                "Leaf_Shape": "Oval",
+                "Needle_Count": "",
                 "Photos": 3
             },
             {
@@ -1841,6 +1889,9 @@ var app = new Vue({
                 "Family": "Pinaceae (pine)",
                 "Height": "To 80 feet (24 m)",
                 "Latin_Name": "Pseudotsuga menziesii",
+                "Type": "Needles",
+                "Needle_Count": "1",
+                "Leaf_Shape": "",
                 "Photos": 4
             },
             {
@@ -1853,6 +1904,9 @@ var app = new Vue({
                 "Family": "Fagaceae (beech)",
                 "Height": "To 30+ feet (9+ m)",
                 "Latin_Name": "Quercus gambelii",
+                "Type": "Leaves",
+                "Leaf_Shape": "Oval",
+                "Needle_Count": "",
                 "Photos": 5
             },
             {
@@ -1865,6 +1919,9 @@ var app = new Vue({
                 "Family": "Fagaceae (beech)",
                 "Height": "To 10+ feet (3+ m)",
                 "Latin_Name": "Quercus turbinella",
+                "Type": "Leaves",
+                "Leaf_Shape": "Oval",
+                "Needle_Count": "",
                 "Photos": 5
             },
             {
@@ -1877,6 +1934,9 @@ var app = new Vue({
                 "Family": "Fabaceae (pea)",
                 "Height": "To 20 feet (6 m)",
                 "Latin_Name": "Robinia neomexicana",
+                "Type": "Leaves",
+                "Leaf_Shape": "Oval",
+                "Needle_Count": "",
                 "Photos": 5
             },
             {
@@ -1889,6 +1949,9 @@ var app = new Vue({
                 "Family": "Salicaceae (willow)",
                 "Height": "6-12 feet (1.8-3.5 m)",
                 "Latin_Name": "Salix exigua",
+                "Type": "Leaves",
+                "Leaf_Shape": "Linear",
+                "Needle_Count": "",
                 "Photos": 5
             },
             {
@@ -1901,6 +1964,9 @@ var app = new Vue({
                 "Family": "Salicaceae (willow)",
                 "Height": "To 30+ feet (9+ m)",
                 "Latin_Name": "Salix gooddingii",
+                "Type": "Leaves",
+                "Leaf_Shape": "Linear",
+                "Needle_Count": "",
                 "Photos": 4
             },
             {
@@ -1913,6 +1979,9 @@ var app = new Vue({
                 "Family": "Tamaricaceae (tamarisk)",
                 "Height": "To 15+ feet (4.5+ m)",
                 "Latin_Name": "Tamarix chinensis",
+                "Type": "Leaves",
+                "Leaf_Shape": "Other",
+                "Needle_Count": "",
                 "Photos": 5
             },
             {
@@ -1925,9 +1994,14 @@ var app = new Vue({
                 "Family": "Ulmaceae (elm)",
                 "Height": "To 50+ feet (15+ m)",
                 "Latin_Name": "Ulmus pumila",
+                "Type": "Leaves",
+                "Leaf_Shape": "Oval",
+                "Needle_Count": "",
                 "Photos": 5
             }
         ],
+        wildflowersFiltered: this.wildflowers,
+        treesFiltered: this.trees,
         page: 'home', // loading, home, research, searchTrees, Instructions, Glossary, Resources, Info, Facts_questions, flowerdetailPage
         flowerdetailPage: false,
         selectedFlower: '',
@@ -1988,8 +2062,8 @@ var app = new Vue({
         all_selected: false,
         leaves_selected: false,
         needles_selected: false,
-        palmate_selected: false,
-        compound_selected: false,
+        triangular_selected: false,
+        linear_selected: false,
         oval_selected: false,
         other_selected: false,
         one_selected: false,
@@ -1998,6 +2072,8 @@ var app = new Vue({
         four_selected: false,
         glossaryItems: [],
         glossarySearch: '',
+        wildflowerSearch: '',
+        treeSearch: '',
         numPetals: ["All", "Zero", "One", "Two", "Three", "Four", "Five", "Six", "Seven+"],
         
         petalNumber: "All",
@@ -2068,46 +2144,78 @@ var app = new Vue({
             this.class_selected = true;
         },
         simpleSelected: function(){
-            this.simple_selected = true;
+            if(this.simple_selected){
+                this.simple_selected = false;
+            }else{
+                this.simple_selected = true;
+            }
             this.daisy_selected = false;
             this.irregular_selected = false;
         },
         daisySelected: function(){
             this.simple_selected = false;
-            this.daisy_selected = true;
+            if(this.daisy_selected){
+                this.daisy_selected = false;
+            }else{
+                this.daisy_selected = true;
+            }
             this.irregular_selected = false;
         },
         irregularSelected: function(){
             this.simple_selected = false;
             this.daisy_selected = false;
-            this.irregular_selected = true;
+            if(this.irregular_selected){
+                this.irregular_selected = false;
+            }else{
+                this.irregular_selected = true;
+            }
         },
         basalSelected: function(){
-            this.basal_selected = true;
+            if(this.basal_selected){
+                this.basal_selected = false;
+            }else{
+                this.basal_selected = true;
+            }
             this.opposite_selected = false;
             this.whorled_selected = false;
             this.alternate_selected = false;
         },
         oppositeSelected: function(){
             this.basal_selected = false;
-            this.opposite_selected = true;
+            if(this.opposite_selected){
+                this.opposite_selected = false;
+            }else{
+                this.opposite_selected = true;
+            }
             this.whorled_selected = false;
             this.alternate_selected = false;
         },
         whorledSelected: function(){
             this.basal_selected = false;
             this.opposite_selected = false;
-            this.whorled_selected = true;
+            if(this.whorled_selected){
+                this.whorled_selected = false;
+            }else{
+                this.whorled_selected = true;
+            }
             this.alternate_selected = false;
         },
         alternateSelected: function(){
             this.basal_selected = false;
             this.opposite_selected = false;
             this.whorled_selected = false;
-            this.alternate_selected = true;
+            if(this.alternate_selected){
+                this.alternate_selected = false;
+            }else{
+                this.alternate_selected = true;
+            }
         },
         blueSelected: function(){
-            this.blue_selected = true;
+            if(this.blue_selected){
+                this.blue_selected = false;
+            }else{
+                this.blue_selected = true;
+            }
             this.orange_selected = false;
             this.pink_selected = false;
             this.yellow_selected = false;
@@ -2118,7 +2226,11 @@ var app = new Vue({
         },
         orangeSelected: function(){
             this.blue_selected = false;
-            this.orange_selected = true;
+            if(this.orange_selected){
+                this.orange_selected = false;
+            }else{
+                this.orange_selected = true;
+            }
             this.pink_selected = false;
             this.yellow_selected = false;
             this.red_selected = false;
@@ -2129,7 +2241,11 @@ var app = new Vue({
         pinkSelected: function(){
             this.blue_selected = false;
             this.orange_selected = false;
-            this.pink_selected = true;
+            if(this.pink_selected){
+                this.pink_selected = false;
+            }else{
+                this.pink_selected = true;
+            }
             this.yellow_selected = false;
             this.red_selected = false;
             this.white_selected = false;
@@ -2140,7 +2256,11 @@ var app = new Vue({
             this.blue_selected = false;
             this.orange_selected = false;
             this.pink_selected = false;
-            this.yellow_selected = true;
+            if(this.yellow_selected){
+                this.yellow_selected = false;
+            }else{
+                this.yellow_selected = true;
+            }
             this.red_selected = false;
             this.white_selected = false;
             this.purple_selected = false;
@@ -2151,7 +2271,11 @@ var app = new Vue({
             this.orange_selected = false;
             this.pink_selected = false;
             this.yellow_selected = false;
-            this.red_selected = true;
+            if(this.red_selected){
+                this.red_selected = false;
+            }else{
+                this.red_selected = true;
+            }
             this.white_selected = false;
             this.purple_selected = false;
             this.all_selected = false;
@@ -2162,7 +2286,11 @@ var app = new Vue({
             this.pink_selected = false;
             this.yellow_selected = false;
             this.red_selected = false;
-            this.purple_selected = true;
+            if(this.purple_selected){
+                this.purple_selected = false;
+            }else{
+                this.purple_selected = true;
+            }
             this.white_selected = false;
             this.all_selected = false;
         },
@@ -2172,7 +2300,11 @@ var app = new Vue({
             this.pink_selected = false;
             this.yellow_selected = false;
             this.red_selected = false;
-            this.white_selected = true;
+            if(this.white_selected){
+                this.white_selected = false;
+            }else{
+                this.white_selected = true;
+            }
             this.purple_selected = false;
             this.all_selected = false;
         },
@@ -2184,63 +2316,107 @@ var app = new Vue({
             this.red_selected = false;
             this.white_selected = false;
             this.purple_selected = false;
-            this.all_selected = true;
+            if(this.all_selected){
+                this.all_selected = false;
+            }else{
+                this.all_selected = true;
+            }
         },
         leavesSelected: function(){
-            this.leaves_selected = true;
+            if(this.leaves_selected){
+                this.leaves_selected = false;
+            }else{
+                this.leaves_selected = true;
+            }
             this.needles_selected = false;
         },
         needlesSelected: function(){
             this.leaves_selected = false;
-            this.needles_selected = true;
+            if(this.needles_selected){
+                this.needles_selected = false;
+            }else{
+                this.needles_selected = true;
+            }
         },
-        palmateSelected: function(){
-            this.palmate_selected = true;
-            this.compound_selected = false;
+        triangularSelected: function(){
+            if(this.triangular_selected){
+                this.triangular_selected = false;
+            }else{
+                this.triangular_selected = true;
+            }
+            this.linear_selected = false;
             this.oval_selected = false;
             this.other_selected = false;
         },
-        compoundSelected: function(){
-            this.palmate_selected = false;
-            this.compound_selected = true;
+        linearSelected: function(){
+            this.triangular_selected = false;
+            if(this.linear_selected){
+                this.linear_selected = false;
+            }else{
+                this.linear_selected = true;
+            }
             this.oval_selected = false;
             this.other_selected = false;
         },
         ovalSelected: function(){
-            this.palmate_selected = false;
-            this.compound_selected = false;
-            this.oval_selected = true;
+            this.triangular_selected = false;
+            this.linear_selected = false;
+            if(this.oval_selected){
+                this.oval_selected = false;
+            }else{
+                this.oval_selected = true;
+            }
             this.other_selected = false;
         },
         otherSelected: function(){
-            this.palmate_selected = false;
-            this.compound_selected = false;
+            this.triangular_selected = false;
+            this.linear_selected = false;
             this.oval_selected = false;
-            this.other_selected = true;
+            if(this.other_selected){
+                this.other_selected = false;
+            }else{
+                this.other_selected = true;
+            }
         },
         oneSelected: function(){
-            this.one_selected = true;
+            if(this.one_selected){
+                this.one_selected = false;
+            }else{
+                this.one_selected = true;
+            }
             this.two_selected = false;
             this.three_selected = false;
             this.four_selected = false;
         },
         twoSelected: function(){
             this.one_selected = false;
-            this.two_selected = true;
+            if(this.two_selected){
+                this.two_selected = false;
+            }else{
+                this.two_selected = true;
+            }
             this.three_selected = false;
             this.four_selected = false;
         },
         threeSelected: function(){
             this.one_selected = false;
             this.two_selected = false;
-            this.three_selected = true;
+            if(this.three_selected){
+                this.three_selected = false;
+            }else{
+                this.three_selected = true;
+            }
             this.four_selected = false;
         },
         fourSelected: function(){
             this.one_selected = false;
             this.two_selected = false;
             this.three_selected = false;
-            this.four_selected = true;
+            if(this.four_selected){
+                this.four_selected = false;
+            }else{
+                this.four_selected = true;
+            }
         },
         reset: function(){
             this.blue_selected = false;
@@ -2263,12 +2439,14 @@ var app = new Vue({
             this.two_selected = false;
             this.three_selected = false;
             this.four_selected = false;
-            this.palmate_selected = false;
-            this.compound_selected = false;
+            this.triangular_selected = false;
+            this.linear_selected = false;
             this.oval_selected = false;
             this.other_selected = false;
             this.leaves_selected = false;
             this.needles_selected = false;
+            this.filterFlowers();
+            this.filterTrees();
         },
         sideDrawerPageChange: function(page) {
             //console.log('page: ', page);
@@ -2363,11 +2541,6 @@ var app = new Vue({
             }
 
         },
-        getGlossaryData: function() {
-            axios.get('./glossary.json').then(res => {
-                console.log('res from axios', res);
-            });
-        },
 
         // Thumbnail image controls
         currentSlide: function(n) {
@@ -2386,7 +2559,105 @@ var app = new Vue({
             }
             slides[this.slideIndex-1].style.display = "block";
             dots[this.slideIndex-1].className += " active";
-        }  
+        } ,
+        filterFlowers: function(){
+            this.wildflowersFiltered = this.wildflowers;
+            this.checkShape();
+            this.checkLeaves();
+            this.checkColor();
+            this.checkPetals();
+        },
+        checkShape: function(){
+            if (this.simple_selected){
+                this.wildflowersFiltered = this.wildflowersFiltered.filter(a=>a.Flower_Shape=="Simple");
+            }else if (this.daisy_selected){
+                this.wildflowersFiltered = this.wildflowersFiltered.filter(a=>a.Flower_Shape=="Daisy");
+            }else if (this.irregular_selected){
+                this.wildflowersFiltered = this.wildflowersFiltered.filter(a=>a.Flower_Shape=="Irregular");
+            }
+        },
+        checkLeaves: function(){
+            if (this.basal_selected){
+                this.wildflowersFiltered = this.wildflowersFiltered.filter(a=>a.Leaf_Arrangement=="Basal");
+            }else if (this.opposite_selected){
+                this.wildflowersFiltered = this.wildflowersFiltered.filter(a=>a.Leaf_Arrangement=="Opposite");
+            }else if (this.whorled_selected){
+                this.wildflowersFiltered = this.wildflowersFiltered.filter(a=>a.Leaf_Arrangement=="Whorled");
+            }else if (this.alternate_selected){
+                this.wildflowersFiltered = this.wildflowersFiltered.filter(a=>a.Leaf_Arrangement=="Alternate");
+            }
+        },
+        checkColor: function(){
+            if (this.blue_selected){
+                this.wildflowersFiltered = this.wildflowersFiltered.filter(a=>a.Color=="Blue");
+            }else if (this.orange_selected){
+                this.wildflowersFiltered = this.wildflowersFiltered.filter(a=>a.Color=="Orange");
+            }else if (this.pink_selected){
+                this.wildflowersFiltered = this.wildflowersFiltered.filter(a=>a.Color=="Pink");
+            }else if (this.yellow_selected){
+                this.wildflowersFiltered = this.wildflowersFiltered.filter(a=>a.Color=="Yellow");
+            }else if (this.red_selected){
+                this.wildflowersFiltered = this.wildflowersFiltered.filter(a=>a.Color=="Red");
+            }else if (this.purple_selected){
+                this.wildflowersFiltered = this.wildflowersFiltered.filter(a=>a.Color=="Purple");
+            }else if (this.white_selected){
+                this.wildflowersFiltered = this.wildflowersFiltered.filter(a=>a.Color=="White");
+            }
+        },
+        checkPetals: function(){
+            console.log("Checking petals", this.petalNumber);
+            if (this.petalNumber == "Zero"){
+                this.wildflowersFiltered = this.wildflowersFiltered.filter(a=>a.Number_Petals=="0");
+            }else if (this.petalNumber == "One"){
+                this.wildflowersFiltered = this.wildflowersFiltered.filter(a=>a.Number_Petals=="1");
+            }else if (this.petalNumber == "Two"){
+                this.wildflowersFiltered = this.wildflowersFiltered.filter(a=>a.Number_Petals=="2");
+            }else if (this.petalNumber == "Three"){
+                this.wildflowersFiltered = this.wildflowersFiltered.filter(a=>a.Number_Petals=="3");
+            }else if (this.petalNumber == "Four"){
+                this.wildflowersFiltered = this.wildflowersFiltered.filter(a=>a.Number_Petals=="4");
+            }else if (this.petalNumber == "Five"){
+                this.wildflowersFiltered = this.wildflowersFiltered.filter(a=>a.Number_Petals=="5");
+            }else if (this.petalNumber == "Six"){
+                this.wildflowersFiltered = this.wildflowersFiltered.filter(a=>a.Number_Petals=="6");
+            }else if (this.petalNumber == "Seven+"){
+                this.wildflowersFiltered = this.wildflowersFiltered.filter(a=>a.Number_Petals=="7+");
+            }
+        },
+        filterTrees: function(){
+            this.treesFiltered = this.trees;
+            this.checkType();
+            
+            this.checkLeafShape();
+            this.checkNeedles();
+        },
+        checkType: function(){
+            if (this.leaves_selected){
+                this.treesFiltered = this.treesFiltered.filter(a=>a.Type.indexOf('Leaves') > -1);
+            }else if (this.needles_selected){
+                this.treesFiltered = this.treesFiltered.filter(a=>a.Type.indexOf('Needles') > -1);
+            }
+        },
+        checkLeafShape: function(){
+            if (this.triangular_selected){
+                this.treesFiltered = this.treesFiltered.filter(a=>a.Leaf_Shape.indexOf('Triangular') !== -1);
+            }else if (this.linear_selected){
+                this.treesFiltered = this.treesFiltered.filter(a=>a.Leaf_Shape.indexOf('Linear') !== -1);
+            }else if (this.oval_selected){
+                this.treesFiltered = this.treesFiltered.filter(a=>a.Leaf_Shape.indexOf('Oval') !== -1);
+            }else if (this.other_selected){
+                this.treesFiltered = this.treesFiltered.filter(a=>a.Leaf_Shape.indexOf('Other') !== -1);
+            }
+        },
+        checkNeedles: function(){
+            if (this.one_selected){
+                this.treesFiltered = this.treesFiltered.filter(a=>a.Needle_Count.indexOf('1') > -1);
+            }else if (this.two_selected){
+                this.treesFiltered = this.treesFiltered.filter(a=>a.Needle_Count.indexOf('2') > -1);
+            }else if (this.three_selected){
+                this.treesFiltered = this.treesFiltered.filter(a=>a.Needle_Count.indexOf('3') > -1);
+            }
+        },
     },
     computed: {
         filteredGlossary: function() {
@@ -2394,6 +2665,16 @@ var app = new Vue({
                 return item.name.match(this.glossarySearch.charAt(0).toUpperCase() +  this.glossarySearch.slice(1));
             });
         },
+        filteredWildflowerSearch: function() {
+            return this.wildflowers.filter((item) => {
+                return item.Common_Name.match(this.wildflowerSearch.charAt(0).toUpperCase() +  this.wildflowerSearch.slice(1));
+            });
+        },
+        filteredTreeSearch: function() {
+            return this.trees.filter((item) => {
+                return item.Common_Name.match(this.treeSearch.charAt(0).toUpperCase() +  this.treeSearch.slice(1));
+            });
+        },  
     }
     
 });

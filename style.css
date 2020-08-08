@@ -326,7 +326,8 @@ h2{
     color: #E9DED9;
     font-size: 14px;
     overflow: hidden;
-}@media only screen and (max-width: 350px){
+}
+@media only screen and (max-width: 350px){
     .pic{
         width: 140px;
         height: 140px;

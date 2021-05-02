@@ -5,4 +5,3 @@ This was a fun project! It allows people to search for and identify certain wild
 <img width="368" alt="1" src="https://user-images.githubusercontent.com/54300598/116827285-6e896500-ab55-11eb-9142-5777b93d52cb.png">
 <img width="368" alt="2" src="https://user-images.githubusercontent.com/54300598/116827290-70532880-ab55-11eb-9d26-732ed1a66fd2.png">
 <img width="374" alt="3" src="https://user-images.githubusercontent.com/54300598/116827291-71845580-ab55-11eb-936c-681da01682f6.png">
-<img width="289" alt="main" src="https://user-images.githubusercontent.com/54300598/116827292-721cec00-ab55-11eb-814b-6e7c03f5c50b.png">

@@ -439,5 +439,28 @@
 		<script src="https://cdn.jsdelivr.net/npm/vuetify@2.x/dist/vuetify.js"></script>
 		<script src="app.js"></script>
 		<noscript>Please install Javascript</noscript>
+		<!-- The core Firebase JS SDK is always required and must be listed first -->
+		<script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-app.js"></script>
+
+		<!-- TODO: Add SDKs for Firebase products that you want to use
+			https://firebase.google.com/docs/web/setup#available-libraries -->
+		<script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-analytics.js"></script>
+
+		<script>
+		// Your web app's Firebase configuration
+		// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+		var firebaseConfig = {
+			apiKey: "AIzaSyCobmTarjkaNL9Zh1Dx8Y0XBMh6ee3wrAs",
+			authDomain: "cedarbreakswildflower.firebaseapp.com",
+			projectId: "cedarbreakswildflower",
+			storageBucket: "cedarbreakswildflower.appspot.com",
+			messagingSenderId: "514234549931",
+			appId: "1:514234549931:web:335c748e16abcd632b19ee",
+			measurementId: "G-58W7SV6ZR7"
+		};
+		// Initialize Firebase
+		firebase.initializeApp(firebaseConfig);
+		firebase.analytics();
+		</script>
     </body>
 </html>
